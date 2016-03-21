@@ -16,7 +16,7 @@ var mimeTypes = {                           // label given to a type of data so 
 }
 
 // Create Server
-http.createServer(function(){
+http.createServer(function(req, res){         // request, response
     var uri = url.parse(req.url).pathname;   // URI = Uniform Resource Identifier
     // Do not use unescape to decode URIs, use decodeURI instead.
     // unescape is depreciated
@@ -27,7 +27,7 @@ http.createServer(function(){
 
     try{
         stats = fs.lstatSync(fileName);       // look for file name, if not catch
-    } catch {
+    } catch(err) {
         res.writeHead(404, {'Content-type':'text/plain'}); // throw 404 error
         res.write('404 Not Found\n');
         res.end();
@@ -36,17 +36,21 @@ http.createServer(function(){
 
     if(stats.isFile()) {
         var mimeType = mimeTypes[path.extname(fileName).split(".").reverse()[0]]; // gets the mimetype
-        res.writeHead(200, {'Content-type':mimeType});
-        
+        res.writeHead(200, {'Content-type': mimeType}); // 200 status is successful
+
         var fileStream = fs.createReadStream(fileName)
         fileStream.pipe(res);
-        
 
+    } else if (stats.isDirectory()){
+        res.writeHead(302, {'Location' : 'index.html'});// 302 redirect
+        res.end();
+    } else {                         // not a file or directory
+        res.writeHead(500, {'Content-Type':'text/plain'});         // 500 internal error
+        res.write('500 Internal Error');
+        res.end();
     }
 
-})
-
-//
+}).listen(3000); // listen to prt 3000
 
 
 
