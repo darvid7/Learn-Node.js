@@ -1,0 +1,50 @@
+have a package.jason with all node projects
+
+{
+  "name": "simplewebserver",
+  "version": "1.0.0",
+  "description": "This is a simple web server",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "David Lei",
+  "license": "ISC"
+}
+
+can also specify dependencies
+
+dont need to declare type in java script ?
+
+--
+java script
+var x = 5;
+is fine
+
+java
+int x
+x = 5;
+
+python
+x = 5
+--
+
+var length = 16;                               // Number
+var lastName = "Johnson";                      // String
+var cars = ["Saab", "Volvo", "BMW"];           // Array
+var x = {firstName:"John", lastName:"Doe"};    // Object
+
+
+You can use quotes inside a string, as long as they don't match the quotes surrounding the string:
+
+Example
+var answer = "It's alright";             // Single quote inside double quotes
+
+
+
+alongside HTML and CSS, it is one of the three essential technologies of World Wide Web content production
+
+console.log('hello world');
+  // Prints: hello world, to stdout
+

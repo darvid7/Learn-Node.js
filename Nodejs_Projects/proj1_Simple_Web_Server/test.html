@@ -1,0 +1,840 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta name="csrf-param" content="authenticity_token" />
+            <meta name="csrf-token" content="C6BFJt8whvSllgYXMz4Ul/WeoRU1B4AA1yiajECXxDdh7Ik+zQPB6DA6EJZutY5X4UB55ErCcdXVd/m/RqfaNw==" />
+
+            <title>HTML5 Game Development | Udacity</title>
+
+            <link rel="canonical" href="https://www.udacity.com/course/html5-game-development--cs255" />
+            <meta name="description" content="Learn how to build high-performance web games with HTML5. We&#39;ll port industry-standard development techniques to the web and use them to create a game.">
+            <meta name="keywords" content="">
+            <meta name="robots" content="noodp"/>
+            <meta name="google-site-verification" content="2EIknjtmPaA5nE7j3noLXPah_x_bM2bFEHZRdqSYYMk"/>
+            <meta name="google-site-verification" content="ELX2btu3VElBKIdvkGj5ESBnJh_Dg9PnWjuCwVkPEkA"/>
+
+            <meta charset="utf-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"2059d2614a","applicationID":"12625862","transactionName":"dwpcEUoOXlUHSkxbCkEXQQBLTkFRDU8=","queueTime":0,"applicationTime":54,"agent":""}</script>
+            <script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"XQAAV1JWGwICUlNXDwcF"};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o||e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({QJf3ax:[function(t,e){function n(){}function r(t){function e(t){return t&&t instanceof n?t:t?a(t,i,o):o()}function u(n,r,o){t&&t(n,r,o);for(var i=e(o),a=l(n),s=a.length,f=0;s>f;f++)a[f].apply(i,r);var u=c[v[n]];return u&&u.push([w,n,r,i]),i}function d(t,e){m[t]=l(t).concat(e)}function l(t){return m[t]||[]}function p(t){return f[t]=f[t]||r(u)}function h(t,e){s(t,function(t,n){e=e||"feature",v[n]=e,e in c||(c[e]=[])})}var m={},v={},w={on:d,emit:u,get:p,listeners:l,context:e,buffer:h};return w}function o(){return new n}var i="nr@context",a=t("gos"),s=t(1),c={},f={},u=e.exports=r();u.backlog=c},{1:24,gos:"7eSDFh"}],ee:[function(t,e){e.exports=t("QJf3ax")},{}],3:[function(t){function e(t){try{i.console&&console.log(t)}catch(e){}}var n,r=t("ee"),o=t(1),i={};try{n=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(i.console=!0,-1!==n.indexOf("dev")&&(i.dev=!0),-1!==n.indexOf("nr_dev")&&(i.nrDev=!0))}catch(a){}i.nrDev&&r.on("internal-error",function(t){e(t.stack)}),i.dev&&r.on("fn-err",function(t,n,r){e(r.stack)}),i.dev&&(e("NR AGENT IN DEVELOPMENT MODE"),e("flags: "+o(i,function(t){return t}).join(", ")))},{1:24,ee:"QJf3ax"}],4:[function(t){function e(t,e,n,i,a){try{f?f-=1:r("err",[a||new UncaughtException(t,e,n)])}catch(c){try{r("ierr",[c,(new Date).getTime(),!0])}catch(u){}}return"function"==typeof s?s.apply(this,o(arguments)):!1}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function n(t){r("err",[t,(new Date).getTime()])}var r=t("handle"),o=t(6),i=t("ee"),a=t("loader"),s=window.onerror,c=!1,f=0;a.features.err=!0,t(5),window.onerror=e;try{throw new Error}catch(u){"stack"in u&&(t(1),t(2),"addEventListener"in window&&t(3),a.xhrWrappable&&t(4),c=!0)}i.on("fn-start",function(){c&&(f+=1)}),i.on("fn-err",function(t,e,r){c&&(this.thrown=!0,n(r))}),i.on("fn-end",function(){c&&!this.thrown&&f>0&&(f-=1)}),i.on("internal-error",function(t){r("ierr",[t,(new Date).getTime(),!0])})},{1:10,2:9,3:7,4:11,5:3,6:25,ee:"QJf3ax",handle:"D5DuLP",loader:"G9z0Bl"}],5:[function(t){t("loader").features.ins=!0},{loader:"G9z0Bl"}],6:[function(t){function e(){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var n=t("ee"),r=t("handle"),o=t(1),i=t(2);t("loader").features.stn=!0,t(3);var a=NREUM.o.EV;n.on("fn-start",function(t){var e=t[0];e instanceof a&&(this.bstStart=Date.now())}),n.on("fn-end",function(t,e){var n=t[0];n instanceof a&&r("bst",[n,e,this.bstStart,Date.now()])}),o.on("fn-start",function(t,e,n){this.bstStart=Date.now(),this.bstType=n}),o.on("fn-end",function(t,e){r("bstTimer",[e,this.bstStart,Date.now(),this.bstType])}),i.on("fn-start",function(){this.bstStart=Date.now()}),i.on("fn-end",function(t,e){r("bstTimer",[e,this.bstStart,Date.now(),"requestAnimationFrame"])}),n.on("pushState-start",function(){this.time=Date.now(),this.startPath=location.pathname+location.hash}),n.on("pushState-end",function(){r("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),"addEventListener"in window.performance&&(window.performance.clearResourceTimings?window.performance.addEventListener("resourcetimingbufferfull",function(){r("bstResource",[window.performance.getEntriesByType("resource")]),window.performance.clearResourceTimings()},!1):window.performance.addEventListener("webkitresourcetimingbufferfull",function(){r("bstResource",[window.performance.getEntriesByType("resource")]),window.performance.webkitClearResourceTimings()},!1)),document.addEventListener("scroll",e,!1),document.addEventListener("keypress",e,!1),document.addEventListener("click",e,!1)}},{1:10,2:9,3:8,ee:"QJf3ax",handle:"D5DuLP",loader:"G9z0Bl"}],7:[function(t,e){function n(t){for(var e=t;e&&!e.hasOwnProperty("addEventListener");)e=Object.getPrototypeOf(e);e&&r(e)}function r(t){a.inPlace(t,["addEventListener","removeEventListener"],"-",o)}function o(t){return t[1]}var i=t("ee").get("events"),a=t(1)(i),s=t("gos");e.exports=i,r(window),"getPrototypeOf"in Object?(n(document),n(XMLHttpRequest.prototype)):XMLHttpRequest.prototype.hasOwnProperty("addEventListener")&&r(XMLHttpRequest.prototype),i.on("addEventListener-start",function(t){if(t[1]){var e=t[1];if("function"==typeof e){var n=s(e,"nr@wrapped",function(){return a(e,"fn-",null,e.name||"anonymous")});this.wrapped=t[1]=n}else"function"==typeof e.handleEvent&&a.inPlace(e,["handleEvent"],"fn-")}}),i.on("removeEventListener-start",function(t){var e=this.wrapped;e&&(t[1]=e)})},{1:26,ee:"QJf3ax",gos:"7eSDFh"}],8:[function(t,e){var n=t("ee").get("history"),r=t(1)(n);e.exports=n,r.inPlace(window.history,["pushState","replaceState"],"-")},{1:26,ee:"QJf3ax"}],9:[function(t,e){var n=t("ee").get("raf"),r=t(1)(n);e.exports=n,r.inPlace(window,["requestAnimationFrame","mozRequestAnimationFrame","webkitRequestAnimationFrame","msRequestAnimationFrame"],"raf-"),n.on("raf-start",function(t){t[0]=r(t[0],"fn-")})},{1:26,ee:"QJf3ax"}],10:[function(t,e){function n(t,e,n){t[0]=i(t[0],"fn-",null,n)}function r(t,e,n){this.method=n,this.timerDuration="number"==typeof t[1]?t[1]:0,t[0]=i(t[0],"fn-",this,n)}var o=t("ee").get("timer"),i=t(1)(o);e.exports=o,i.inPlace(window,["setTimeout","setImmediate"],"setTimer-"),i.inPlace(window,["setInterval"],"setInterval-"),i.inPlace(window,["clearTimeout","clearImmediate"],"clearTimeout-"),o.on("setInterval-start",n),o.on("setTimer-start",r)},{1:26,ee:"QJf3ax"}],11:[function(t,e){function n(t,e){e=e||this;var n=i.context(e);e.readyState>3&&!n.resolved&&(n.resolved=!0,i.emit("xhr-resolved",[],e));try{c.inPlace(e,l,"fn-",r)}catch(o){}}function r(t,e){return e}function o(t,e){for(var n in t)e[n]=t[n];return e}var i=t("ee").get("xhr"),a=t(1),s=t(2),c=s(i),f=s(a),u=NREUM.o,d=u.XHR,l=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout","onreadystatechange"];e.exports=i,window.XMLHttpRequest=function(t){var e=new d(t);try{i.emit("new-xhr",[e],e),e.hasOwnProperty("addEventListener")&&f.inPlace(e,["addEventListener","removeEventListener"],"-",r),e.addEventListener("readystatechange",n,!1)}catch(o){try{i.emit("internal-error",[o])}catch(a){}}return e},o(d,XMLHttpRequest),XMLHttpRequest.prototype=d.prototype,c.inPlace(XMLHttpRequest.prototype,["open","send"],"-xhr-",r),i.on("send-xhr-start",n),i.on("open-xhr-start",n)},{1:7,2:26,ee:"QJf3ax"}],12:[function(t){function e(t){var e=this.params,r=this.metrics;if(!this.ended){this.ended=!0;for(var o=0;u>o;o++)t.removeEventListener(f[o],this.listener,!1);if(!e.aborted){if(r.duration=(new Date).getTime()-this.startTime,4===t.readyState){e.status=t.status;var i=n(t,this.lastSize);if(i&&(r.rxSize=i),this.sameOrigin){var s=t.getResponseHeader("X-NewRelic-App-Data");s&&(e.cat=s.split(", ").pop())}}else e.status=0;r.cbTime=this.cbTime,c.emit("xhr-done",[t],t),a("xhr",[e,r,this.startTime])}}}function n(t,e){var n=t.responseType;if("json"===n&&null!==e)return e;var o="arraybuffer"===n||"blob"===n||"json"===n?t.response:t.responseText;return r(o)}function r(t){if("string"==typeof t&&t.length)return t.length;if("object"!=typeof t)return void 0;if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if("undefined"!=typeof FormData&&t instanceof FormData)return void 0;try{return JSON.stringify(t).length}catch(e){return void 0}}function o(t,e){var n=s(e),r=t.params;r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.sameOrigin=n.sameOrigin}var i=t("loader");if(i.xhrWrappable){var a=t("handle"),s=t(2),c=t("ee"),f=["load","error","abort","timeout"],u=f.length,d=t(1),l=t(3),p=window.XMLHttpRequest;i.features.xhr=!0,t(5),t(4),c.on("new-xhr",function(t){var n=this;n.totalCbs=0,n.called=0,n.cbTime=0,n.end=e,n.ended=!1,n.xhrGuids={},n.lastSize=null,l&&(l>34||10>l)||window.opera||t.addEventListener("progress",function(t){n.lastSize=t.loaded},!1)}),c.on("open-xhr-start",function(t){this.params={method:t[0]},o(this,t[1]),this.metrics={}}),c.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),c.on("send-xhr-start",function(t,e){var n=this.metrics,o=t[0],i=this;if(n&&o){var a=r(o);a&&(n.txSize=a)}this.startTime=(new Date).getTime(),this.listener=function(t){try{"abort"===t.type&&(i.params.aborted=!0),("load"!==t.type||i.called===i.totalCbs&&(i.onloadCalled||"function"!=typeof e.onload))&&i.end(e)}catch(n){try{c.emit("internal-error",[n])}catch(r){}}};for(var s=0;u>s;s++)e.addEventListener(f[s],this.listener,!1)}),c.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),c.on("xhr-load-added",function(t,e){var n=""+d(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),c.on("xhr-load-removed",function(t,e){var n=""+d(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),c.on("addEventListener-end",function(t,e){e instanceof p&&"load"===t[0]&&c.emit("xhr-load-added",[t[1],t[2]],e)}),c.on("removeEventListener-end",function(t,e){e instanceof p&&"load"===t[0]&&c.emit("xhr-load-removed",[t[1],t[2]],e)}),c.on("fn-start",function(t,e,n){e instanceof p&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=(new Date).getTime()))}),c.on("fn-end",function(t,e){this.xhrCbStart&&c.emit("xhr-cb-time",[(new Date).getTime()-this.xhrCbStart,this.onload,e],e)})}},{1:"XL7HBI",2:13,3:15,4:11,5:7,ee:"QJf3ax",handle:"D5DuLP",loader:"G9z0Bl"}],13:[function(t,e){e.exports=function(t){var e=document.createElement("a"),n=window.location,r={};e.href=t,r.port=e.port;var o=e.href.split("://");!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=e.hostname||n.hostname,r.pathname=e.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname);var i=!e.protocol||":"===e.protocol||e.protocol===n.protocol,a=e.hostname===document.domain&&e.port===n.port;return r.sameOrigin=i&&(!e.hostname||a),r}},{}],14:[function(t,e){function n(t,e){return function(){r(t,[(new Date).getTime()].concat(i(arguments)),null,e)}}var r=t("handle"),o=t(1),i=t(2);"undefined"==typeof window.newrelic&&(newrelic=NREUM);var a=["setPageViewName","addPageAction","setCustomAttribute","finished","addToTrace","inlineHit"],s=["addPageAction"],c="api-";o(a,function(t,e){newrelic[e]=n(c+e,"api")}),o(s,function(t,e){newrelic[e]=n(c+e)}),e.exports=newrelic,newrelic.noticeError=function(t){"string"==typeof t&&(t=new Error(t)),r("err",[t,(new Date).getTime()])}},{1:24,2:25,handle:"D5DuLP"}],15:[function(t,e){var n=0,r=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);r&&(n=+r[1]),e.exports=n},{}],gos:[function(t,e){e.exports=t("7eSDFh")},{}],"7eSDFh":[function(t,e){function n(t,e,n){if(r.call(t,e))return t[e];var o=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:o,writable:!0,enumerable:!1}),o}catch(i){}return t[e]=o,o}var r=Object.prototype.hasOwnProperty;e.exports=n},{}],handle:[function(t,e){e.exports=t("D5DuLP")},{}],D5DuLP:[function(t,e){function n(t,e,n,o){r.buffer([t],o),r.emit(t,e,n)}var r=t("ee").get("handle");e.exports=n,n.ee=r},{ee:"QJf3ax"}],XL7HBI:[function(t,e){function n(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:i(t,o,function(){return r++})}var r=1,o="nr@id",i=t("gos");e.exports=n},{gos:"7eSDFh"}],id:[function(t,e){e.exports=t("XL7HBI")},{}],G9z0Bl:[function(t,e){function n(){if(!h++){var t=p.info=NREUM.info,e=f.getElementsByTagName("script")[0];if(t&&t.licenseKey&&t.applicationID&&e){s(d,function(e,n){t[e]||(t[e]=n)});var n="https"===u.split(":")[0]||t.sslForHttp;p.proto=n?"https://":"http://",a("mark",["onload",i()],null,"api");var r=f.createElement("script");r.src=p.proto+t.agent,e.parentNode.insertBefore(r,e)}}}function r(){"complete"===f.readyState&&o()}function o(){a("mark",["domContent",i()],null,"api")}function i(){return(new Date).getTime()}var a=t("handle"),s=t(1),c=window,f=c.document;NREUM.o={ST:setTimeout,XHR:c.XMLHttpRequest,REQ:c.Request,EV:c.Event,PR:c.Promise,MO:c.MutationObserver},t(2);var u=(""+location).split("?")[0],d={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-885.min.js"},l=window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&!/CriOS/.test(navigator.userAgent),p=e.exports={offset:i(),origin:u,features:{},xhrWrappable:l};f.addEventListener?(f.addEventListener("DOMContentLoaded",o,!1),c.addEventListener("load",n,!1)):(f.attachEvent("onreadystatechange",r),c.attachEvent("onload",n)),a("mark",["firstbyte",i()],null,"api");var h=0},{1:24,2:14,handle:"D5DuLP"}],loader:[function(t,e){e.exports=t("G9z0Bl")},{}],24:[function(t,e){function n(t,e){var n=[],o="",i=0;for(o in t)r.call(t,o)&&(n[i]=e(o,t[o]),i+=1);return n}var r=Object.prototype.hasOwnProperty;e.exports=n},{}],25:[function(t,e){function n(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(0>o?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=n},{}],26:[function(t,e){function n(t){return!(t&&"function"==typeof t&&t.apply&&!t[i])}var r=t("ee"),o=t(1),i="nr@original",a=Object.prototype.hasOwnProperty,s=!1;e.exports=function(t){function e(t,e,r,a){function nrWrapper(){var n,i,s,c;try{i=this,n=o(arguments),s="function"==typeof r?r(n,i):r||{}}catch(u){d([u,"",[n,i,a],s])}f(e+"start",[n,i,a],s);try{return c=t.apply(i,n)}catch(l){throw f(e+"err",[n,i,l],s),l}finally{f(e+"end",[n,i,c],s)}}return n(t)?t:(e||(e=""),nrWrapper[i]=t,u(t,nrWrapper),nrWrapper)}function c(t,r,o,i){o||(o="");var a,s,c,f="-"===o.charAt(0);for(c=0;c<r.length;c++)s=r[c],a=t[s],n(a)||(t[s]=e(a,f?s+o:o,i,s))}function f(e,n,r){if(!s){s=!0;try{t.emit(e,n,r)}catch(o){d([o,e,n,r])}s=!1}}function u(t,e){if(Object.defineProperty&&Object.keys)try{var n=Object.keys(t);return n.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(r){d([r])}for(var o in t)a.call(t,o)&&(e[o]=t[o]);return e}function d(e){try{t.emit("internal-error",e)}catch(n){}}return t||(t=r),e.inPlace=c,e.flag=i,e}},{1:25,ee:"QJf3ax"}]},{},["G9z0Bl",4,12,6,5]);</script>
+            <meta http-equiv="X-UA-Compatible" content="requiresActiveX=true"/>
+            <meta name="application-name" content="Udacity"/>
+            <meta name="msapplication-TileColor" content="#FFFFFF"/>
+            <meta name="msapplication-TileImage" content="https://d125fmws0bore1.cloudfront.net/assets/udacity_share-46db4b8faf075a5af5a1070a7fa0ad3639783609ff45f447e4ea467fe3aa9d32.png"/>
+            <meta name="msvalidate.01" content="4ADB80ADF9A5138C8BE3B23EE428B306"/>
+            <meta name="theme-color" content="#294860">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+
+            <link rel="shortcut icon" href="https://d125fmws0bore1.cloudfront.net/assets/favicon-3867f43151ecbff486335ae6a96d17d91d6169d20888131b4681d15b65e1425b.ico"/>
+            <link rel="icon" sizes="any" mask href="https://d125fmws0bore1.cloudfront.net/assets/udacity_apple_icon-58fec65eaada5e7c48df34546afb12c3a987eea1d91a66bb413d853a7c3feba6.png">
+            <link rel="apple-touch-icon" href="https://d125fmws0bore1.cloudfront.net/assets/udacity_apple_icon-58fec65eaada5e7c48df34546afb12c3a987eea1d91a66bb413d853a7c3feba6.png">
+
+            <meta property="og:description" content="Learn how to build high-performance web games with HTML5. We&#39;ll port industry-standard development techniques to the web and use them to create a game.">
+            <meta property="og:image:height" content="">
+            <meta property="og:image:width" content="">
+            <meta property="og:image" content="https://lh5.ggpht.com/C-c9-2x5jVtuwhzNRR-RzDnp_5sAHFTaKeySuZYlUZDv0P4GTKCA4wsS_PLuT7MokRAKaZ1o9JmsY2eTUJc0=s0#w=436&amp;h=268">
+            <meta property="og:title" content="HTML5 Game Development | Udacity">
+            <meta property="og:type" content="website">
+            <meta property="og:url" content="/course/html5-game-development--cs255">
+
+            <meta name="twitter:description" content="Learn how to build high-performance web games with HTML5. We&#39;ll port industry-standard development techniques to the web and use them to create a game.">
+            <meta name="twitter:image:src" content="https://lh5.ggpht.com/C-c9-2x5jVtuwhzNRR-RzDnp_5sAHFTaKeySuZYlUZDv0P4GTKCA4wsS_PLuT7MokRAKaZ1o9JmsY2eTUJc0=s0#w=436&amp;h=268">
+            <meta name="twitter:title" content="HTML5 Game Development | Udacity">
+            <meta name="twitter:card" content="summary_large_image">
+            <meta name="twitter:site" content="@udacity">
+            <meta name="twitter:creator" content="@udacity">
+
+            <script type="text/javascript">
+                !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","page","once","off","on"];analytics.factory=function(t){return function(){var e=Array.prototype.slice.call(arguments);e.unshift(t);analytics.push(e);return analytics}};for(var t=0;t<analytics.methods.length;t++){var e=analytics.methods[t];analytics[e]=analytics.factory(e)}analytics.load=function(t){var e=document.createElement("script");e.type="text/javascript";e.async=!0;e.src=("https:"===document.location.protocol?"https://":"http://")+"cdn.segment.com/analytics.js/v1/"+t+"/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(e,n)};analytics.SNIPPET_VERSION="3.1.0";
+                    analytics.load('oP3ZXzj7KM9lvyAXexoorjH0YbvawAKg');
+                    analytics.page(
+                            "Course Info",
+                            "Course Info - cs255",
+                            {"course_key":"cs255"},
+                            {}
+                    );
+                }}();
+            </script>
+
+
+            <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
+            <script src="https://code.jquery.com/jquery-1.12.2.min.js" integrity="sha256-lZFHibXzMHo3GGeehn1hudTAP3Sc0uKXBXAzHX1sjtk=" crossorigin="anonymous"></script>
+            <!--<script type="text/javascript">
+              if (typeof jQuery === 'undefined') {
+                document.write(unescape("&lt;script src=&quot;https://d125fmws0bore1.cloudfront.net/assets/jquery-1.10.2.min-145ba95820e9b5d4e630b131c45687e25ab3490e206f44a0399b7a4b00cc67ef.js&quot; type=&quot;text/javascript&quot; &gt;&lt;/script&gt;"));
+              }
+            </script>-->
+            <script src="//cdn.optimizely.com/js/655050218.js"></script>
+
+            <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css" media="screen" rel="stylesheet" type="text/css"/>
+            <link rel="stylesheet" media="all" href="https://d125fmws0bore1.cloudfront.net/assets/legacy/legacy-ca5855c9647fa794eac5082a875fbc0247d2e789d7f39b7218ee0cce6257e641.css" />
+            <script src="https://d125fmws0bore1.cloudfront.net/assets/legacy/legacy-c7f0a2af454d8be93f7515ed7673aaa0f1219eb01d3dcaf88137da22a5cdc3ec.js"></script>
+
+            <link rel="stylesheet" media="screen" href="https://d125fmws0bore1.cloudfront.net/assets/legacy/standalone/course-1f852738866dd576649dbf50abe8f8aea39e69ccd8b1a0065e8135c4f6381a40.css" />
+            <script type="application/ld+json">
+  {"@context":"http://schema.org","@type":"Course","@id":"https://www.udacity.com/course/html5-game-development--cs255","name":"HTML5 Game Development","description":"Learn how to build high-performance web games with HTML5. We'll port industry-standard development techniques to the web and use them to create a game.","educationalOutcome":"At the end of this course, you'll understand how to develop an HTML5 game. \nYou will gain familiarity with HTML5 features such as 2D canvas and techniques for improving performance.","trackPrerequisite":["Knowledge of HTML, Javascript, and how the web works is necessary for this course. There is an optional lesson on the specific parts of Javascript and the DOM that you'll need for this class as a refresher, but this is not an introductory course on Javascript."],"isAccessibleForFree":"http://schema.org/False","subjectOfStudy":[],"hasCourseSection":{"@type":"CourseSection","inLanguage":"en","instructor":[{"@type":"Person","@id":"https;//www.udacity.com/instructor/colt-mcanlis","name":"Colt McAnlis"},{"@type":"Person","@id":"https;//www.udacity.com/instructor/peter-lubbers","name":"Peter Lubbers"},{"@type":"Person","@id":"https;//www.udacity.com/instructor/sean-bennett","name":"Sean Bennett"}]}}
+</script>
+
+
+        </head>
+<body class="page-">
+<header class="global">
+    <div class="top_banner" data-segment-track="Featured Moustache">
+        <p><span class="featured">Featured</span>
+            Learn how <a href="/bytebracket" title="ByteBracket">ByteBracket</a> rocks #MarchMadness. Enroll in <a href="https://www.udacity.com/course/machine-learning-engineer-nanodegree--nd009">Machine Learning</a> today!
+        </p>
+        <a href="#" class="close_banner">
+            <img alt="Close Banner" src="https://d125fmws0bore1.cloudfront.net/assets/svgs/icon_close_white-fdd56924d93bedc020f2d079889bc5fb90f592deacba22272ba8b660b4a4e543.svg" />
+        </a>
+    </div>
+
+    <div class="contain clear">
+        <a href="/" class="logo">
+            <img alt="Udacity" src="https://d125fmws0bore1.cloudfront.net/assets/svgs/logo_wordmark-69d956c1e98fd8670993c03f4d3dcbb3b38fa80d7524a5cbabbc2544e319d3ef.svg" />
+        </a>
+        <a data-show-student href="/me" class="sign_in_link">My Classroom</a>
+        <a data-show-guest href="https://www.udacity.com/account/auth#!/signup" class="sign_in_link">Sign Up</a>
+        <a data-show-guest href="https://www.udacity.com/account/auth#!/signin" class="sign_in_link">Sign In</a>
+        <nav class="main">
+            <ul class="main_nav">
+                <li class="home_link"><a href="/">Home</a></li>
+                <li class="nanodegree_link"><a href="/nanodegree">Nanodegree</a></li>
+                <li class="free_courses_link"><a href="/courses/all">Catalog</a></li>
+            </ul>
+            <a href="#" class="nav_toggle">
+                <span class="bar bar_top"></span>
+
+                <span class="bar bar_mid"></span>
+
+                <span class="bar bar_bottom"></span>
+            </a>
+        </nav>
+    </div>
+</header>
+
+
+<div id="page-content">
+
+
+
+
+    <div class="banner banner-header course-overview-banner">
+        <div class="container banner-content cop-banner text-inverse">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="row row-gap-small">
+                        <div class="col-xs-8 col-xs-offset-2 text-center">
+                            <h1 class="course-header-title h-slim">
+                                HTML5 Game Development
+                            </h1>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6 col-sm-offset-3 col-md-8 col-md-offset-2 text-center">
+                            <h2 class="h-slim course-header-subtitle">
+                                Building High Performance Web Apps
+                            </h2>
+                        </div>
+                    </div>
+                    <div class="row row-gap-small">
+                        <div class="col-sm-12 text-center">
+                            <a data-facebook-share
+                               data-facebook-name="HTML5 Game Development"
+                               data-facebook-href="https://www.udacity.com/course/html5-game-development--cs255"
+                               data-facebook-caption="Building High Performance Web Apps"
+                               data-facebook-description="Learn how to build high-performance web games with HTML5. We&#39;ll port industry-standard development techniques to the web and use them to create a game."
+                               data-facebook-image="https://lh5.ggpht.com/C-c9-2x5jVtuwhzNRR-RzDnp_5sAHFTaKeySuZYlUZDv0P4GTKCA4wsS_PLuT7MokRAKaZ1o9JmsY2eTUJc0=s0#w=436&amp;h=268"
+                               href="https://www.facebook.com/Udacity" class="no-underline">
+                                <span class="sprite sprite-social sprite-facebook sprite-vertical-center"></span>
+                            </a>
+
+                            <a data-google-plus-share href="https://plus.google.com/+Udacity/posts" class="no-underline">
+                                <span class="sprite sprite-social sprite-gplus sprite-vertical-center"></span>
+                            </a>
+
+                            <a data-twitter-share
+                               data-twitter-name="HTML5 Game Development"
+                               data-twitter-href="https://www.udacity.com/course/html5-game-development--cs255"
+                               data-twitter-description="HTML5 Game Development - Building High Performance Web Apps"
+                               href="https://twitter.com/udacity" class="no-underline">
+                                <span class="sprite social-sprite sprite-twitter sprite-vertical-center"></span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="row row-gap-small"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <div class="section zero-pad-bottom">
+            <div class="container">
+
+                <div class="row">
+                    <div class="col-xs-12 col-sm-5 col-md-4 course-enrollment-actions pull-right">
+
+                        <div class="visible-xs">
+                            <div class="row course-info-bar">
+
+                                <div class="col-xs-6">
+                                    <div class="media">
+                                        <div class="pull-left">
+                                            <span class="icon-level course-info-bar-icon icon-level-intermediate"></span>
+                                        </div>
+                                        <div class="media-body">
+                                            <strong>intermediate</strong>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-xs-6 duration-information">
+                                    <div class="media">
+                                        <div class="pull-left">
+                                            <span class="icon-fa icon-fa-fixed-width icon-fa-medium icon-fa-calendar-o"></span>
+                                        </div>
+                                        <div class="media-body">
+                                            <p>
+                                                <strong>
+                                                    Approx. 2 months
+                                                </strong>
+                                            </p>
+                                            <p class="caption">
+                                                <small>Assumes 6hrs/wk (work at your own pace)</small>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-xs-6">
+                                    <strong>Built by</strong>
+                                    <img style="margin-left: 10px;max-width: 100px;" src="https://s3-us-west-1.amazonaws.com/udacity-content/affilliates/logo_color_google.png">
+                                </div>
+
+                                <div class="col-xs-6">
+                                    <div class="media">
+                                        <div class="pull-left">
+                                            <span class="media-object icon-fa icon-fa-fixed-width icon-fa-medium icon-fa-users"></span>
+                                        </div>
+                                        <div class="media-body">
+                                            <strong>Join</strong>
+                                            <strong data-course-student-count>thousands of</strong>
+                                            <strong>students</strong>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="row row-gap-large visible-xs"></div>
+
+                        <div>
+                            <div class="row">
+                                <div class="col-xs-12 col-md-10 col-md-offset-1">
+
+                                    <div class="row">
+                                        <div class="col-xs-12">
+                                            <h3 class="h-slim-top">Start Free Course</h3>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-xs-12">
+
+                                            <a href="//udacity.com/course/viewer#!/c-cs255"
+                                               data-free-action="cs255"
+                                               data-price="0"
+                                               data-segment-track="Free Course Enrollment Click"
+                                               data-segment-properties='{ "course_key": "cs255" }'
+                                               class="courseware-action btn btn-lg btn-secondary btn-block">
+                                                Start Free Course
+                                            </a>
+
+                                            <div class="media">
+                                                <div class="pull-left">
+                                                    <span class="icon-fa icon-fa-fixed-width icon-fa-small icon-fa-tag text-muted"></span>
+                                                </div>
+                                                <div class="media-body">
+                                                    <strong>Free</strong>
+                                                </div>
+                                            </div>
+
+                                            <div class="row row-gap-small">
+                                                <div class="col-xs-12">
+                                                    <strong>You get</strong>
+                                                </div>
+                                            </div>
+
+                                            <div class="media slim">
+                                                <div class="pull-left">
+                                                    <span class="icon-fa icon-fa-fixed-width icon-fa-small icon-fa-play text-muted"></span>
+                                                </div>
+                                                <div class="media-body">Instructor videos</div>
+                                            </div>
+                                            <div class="media slim">
+                                                <div class="pull-left">
+                                                    <span class="icon-fa icon-fa-fixed-width icon-fa-small icon-fa-lightbulb-o text-muted"></span>
+                                                </div>
+                                                <div class="media-body">
+                                                    Learn by doing exercises
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xs-12 col-sm-7 col-md-8 pull-left main-text-area">
+
+                        <div class="row row-gap-medium hidden-xs">
+                            <div class="col-xs-12">
+
+                                <div class="row course-info-bar">
+
+                                    <div class="col-xs-6">
+                                        <div class="media">
+                                            <div class="pull-left">
+                                                <span class="icon-level course-info-bar-icon icon-level-intermediate"></span>
+                                            </div>
+                                            <div class="media-body">
+                                                <strong>Intermediate</strong>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-xs-6 duration-information">
+                                        <div class="media">
+                                            <div class="pull-left">
+                                                <span class="icon-fa icon-fa-fixed-width icon-fa-medium icon-fa-calendar-o"></span>
+                                            </div>
+                                            <div class="media-body">
+                                                <p>
+                                                    <strong class="">
+                                                        Approx. 2 months
+                                                    </strong>
+                                                </p>
+                                                <p class="caption">
+                                                    <small>Assumes 6hrs/wk (work at your own pace)</small>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-xs-6">
+                                        <strong>Built by</strong>
+                                        <img style="margin-left: 10px;max-width: 100px;" src="https://s3-us-west-1.amazonaws.com/udacity-content/affilliates/logo_color_google.png">
+                                    </div>
+
+                                    <div class="col-xs-6">
+                                        <div class="media">
+                                            <div class="pull-left">
+                                                <span class="media-object icon-fa icon-fa-fixed-width icon-fa-medium icon-fa-users"></span>
+                                            </div>
+                                            <div class="media-body">
+                                                <strong>Join</strong>
+                                                <strong data-course-student-count>thousands of</strong>
+                                                <strong>students</strong>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row row-gap-large">
+
+                            <div class="col-xs-4 view-course-trailer-container">
+                                <img alt="view course trailer" class="img-responsive" src="https://lh5.ggpht.com/C-c9-2x5jVtuwhzNRR-RzDnp_5sAHFTaKeySuZYlUZDv0P4GTKCA4wsS_PLuT7MokRAKaZ1o9JmsY2eTUJc0=s0#w=436&amp;h=268">
+                                <a class="view-trailer" data-lightbox-video
+                                   data-videoid="https://www.youtube.com/watch?v=F3JeV756B7w"
+                                   data-videosite="url"
+                                   data-segment-track="Course Trailer Played"
+                                   data-course-key="cs255">
+                                    <span class="icon icon-play-trailer"></span>
+                                </a>
+                                <div class="section-inverse section-slim text-center">
+                                    <span class="h4 h-slim text-inverse">Watch Video</span>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-8">
+                                <h2 class="h-slim-top">Course Summary</h2>
+                                <div class="pretty-format">
+                                    <p>This course will walk you through the major components of building GRITS, an HTML5 game. We&#39;ll talk about how to take standard game development techniques, and use them to create high performance HTML5 applications.</p>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div data-animated-toggle class="row row-gap-medium">
+                            <div class="col-xs-12">
+                                <h2 data-toggler>
+                                    <i data-toggle-icon
+                                       data-toggle-icon-collapsed="glyphicon-chevron-right"
+                                       data-toggle-icon-expanded="glyphicon-chevron-down"
+                                       class="glyphicon glyphicon-small glyphicon-chevron-right"></i>
+                                    Why Take This Course?
+                                </h2>
+                                <div data-toggle-target class="pretty-format">
+                                    <p>At the end of this course, you&#39;ll understand how to develop an HTML5 game.
+                                        You will gain familiarity with HTML5 features such as 2D canvas and techniques for improving performance.</p>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div data-animated-toggle class="col-xs-12">
+                                <h2 data-toggler>
+                                    <i data-toggle-icon
+                                       data-toggle-icon-collapsed="glyphicon-chevron-right"
+                                       data-toggle-icon-expanded="glyphicon-chevron-down"
+                                       class="glyphicon glyphicon-small glyphicon-chevron-right"></i>
+                                    Prerequisites and Requirements
+                                </h2>
+                                <div data-toggle-target class="pretty-format">
+                                    <p>Knowledge of HTML, Javascript, and how the web works is necessary for this course. There is an optional lesson on the specific parts of Javascript and the DOM that you&#39;ll need for this class as a refresher, but this is not an introductory course on Javascript.</p>
+
+                                    <p>See the <a href="/tech-requirements" target="_blank">Technology Requirements</a> for using Udacity.</p>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="row">
+                            <div data-animated-toggle class="col-xs-12">
+                                <h2 data-toggler>
+                                    <i data-toggle-icon
+                                       data-toggle-icon-collapsed="glyphicon-chevron-right"
+                                       data-toggle-icon-expanded="glyphicon-chevron-down"
+                                       class="glyphicon glyphicon-small glyphicon-chevron-right"></i>
+                                    Syllabus
+                                </h2>
+                                <div data-toggle-target class="pretty-format">
+                                    <h3>Lesson 0</h3>
+
+                                    <p>Optional HTML/Javascript crash course</p>
+
+                                    <h3>Lesson 1</h3>
+
+                                    <p>Introduction to Canvas rendering</p>
+
+                                    <h3>Lesson 2</h3>
+
+                                    <p>Atlases</p>
+
+                                    <h3>Lesson 3</h3>
+
+                                    <p>Map rendering</p>
+
+                                    <h3>Lesson 4</h3>
+
+                                    <p>Basic Input, handling events</p>
+
+                                    <h3>Lesson 5</h3>
+
+                                    <p>The entity hierarchy</p>
+
+                                    <h3>Lesson 6</h3>
+
+                                    <p>Box2D, and using external libraries</p>
+
+                                    <h3>Lesson 7</h3>
+
+                                    <p>Adding sound</p>
+
+                                    <h3>Lesson 8</h3>
+
+                                    <p>Asynchronous Loading</p>
+
+                                    <h3>Supplementary Materials</h3>
+
+                                    <p><img src="https://s3.amazonaws.com/udacity-hosted-downloads/A9781430266976-3d.png" alt="Alt text"></p>
+
+                                    <p><a href="http://bit.ly/1i3rk63">Link to download free chapters</a></p>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section section-slim">
+            <div class="container">
+
+                <div class="row">
+                    <div class="col-xs-12 col-sm-7 col-md-8 instructor-col">
+
+                        <div class="row">
+                            <div class="col-xs-12">
+                                <h2 class="h-slim-top">Instructors &amp; Partners</h2>
+                            </div>
+                        </div>
+
+                        <div class="row row-gap-small instructor-information-entry">
+                            <div class="col-xs-12 col-sm-12 instructor-information pull-left">
+                                <div data-animated-toggle="">
+                                    <div class="instructor-picture-container">
+                                        <img class="img-circle instructor-picture"
+                                             alt="instructor photo"
+                                             src="https://lh3.ggpht.com/fqXCAak3vE6L4YY-_JjvhpftvEduRczdO1JUlFz8OAFBIgobjI3bc1cI7akEmwe9gKOieAdCJn29refQ0w=s0#w=285&amp;h=285">
+                                    </div>
+                                    <h3 class="h-slim" data-toggler>
+                                        <i data-toggle-icon
+                                           data-toggle-icon-collapsed="glyphicon-chevron-right"
+                                           data-toggle-icon-expanded="glyphicon-chevron-down"
+                                           class="glyphicon glyphicon-small glyphicon-chevron-right"></i>
+                                        <a href="#">Colt McAnlis</a>
+                                    </h3>
+                                    <h4 class="h-slim">Instructor</h4>
+                                    <div class="profile-box" data-toggle-target="hide">
+                                        <p class="pretty-print"><p>Colt McAnlis is a Developer Advocate at Google focusing on Performance and Gaming; Before that, he was a graphics programmer in the games industry working at <a href="http://goo.gl/TfRlw" target="_blank">Blizzard</a>, <a href="http://goo.gl/6w5AMB" target="_blank">Microsoft</a>, and <a href="http://goo.gl/1RyVsu" target="_blank">Petroglyph</a>. He’s been an Adjunct Professor at <a href="http://goo.gl/4wHn51" target="_blank">SMU Guildhall</a>, a <a href="http://goo.gl/vaWjc" target="_blank">UDACITY</a> instructor, and a <a href="http://goo.gl/di4Osg" target="_blank">Book Author</a>. Recently, he’s been teaching Android Devs the <a href="http://goo.gl/4ZJkY1" target="_blank">Zen of Performance</a>. When he&#39;s not working with developers, Colt spends his time preparing for an invasion of giant ants from outer space.</p>
+
+                                        <p>You can follow him on G+ (+Colt McAnlis) or Twitter (@duhroach)</p>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row row-gap-small instructor-information-entry">
+                            <div class="col-xs-12 col-sm-12 instructor-information pull-left">
+                                <div data-animated-toggle="">
+                                    <div class="instructor-picture-container">
+                                        <img class="img-circle instructor-picture"
+                                             alt="instructor photo"
+                                             src="https://lh5.ggpht.com/kCNp10EZYdK5ZkTLRO9R13TBQ-wg-7J5xQ86SLIPAbP_IqFyzi_xZkpdYga-IElnK13OLFGBk-jjq0_03i-B=s0#w=137&amp;h=137">
+                                    </div>
+                                    <h3 class="h-slim" data-toggler>
+                                        <i data-toggle-icon
+                                           data-toggle-icon-collapsed="glyphicon-chevron-right"
+                                           data-toggle-icon-expanded="glyphicon-chevron-down"
+                                           class="glyphicon glyphicon-small glyphicon-chevron-right"></i>
+                                        <a href="#">Sean Bennett</a>
+                                    </h3>
+                                    <h4 class="h-slim">Instructor</h4>
+                                    <div class="profile-box" data-toggle-target="hide">
+                                        <p class="pretty-print"><p>Sean Bennett is a Course Architect at Udacity and is passionate about using the web to improve the quality of education available worldwide. Sean&#39;s background is in web programming, and he likes to dabble in functional web programming. When he&#39;s not working to improve education, Sean likes running, hiking, and preparing for the inevitable zombie apocalypse.</p>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row row-gap-small instructor-information-entry">
+                            <div class="col-xs-12 col-sm-12 instructor-information pull-left">
+                                <div data-animated-toggle="">
+                                    <div class="instructor-picture-container">
+                                        <img class="img-circle instructor-picture"
+                                             alt="instructor photo"
+                                             src="https://lh5.ggpht.com/Lk1Ia93wwl1UrEWWlQw5hS34XhsVlel2IYrnYCXTmSG9U9Ox8_eIqMfplBNfsmRV4gJ63oZBh-k1qBRM-SI=s0#w=236&amp;h=236">
+                                    </div>
+                                    <h3 class="h-slim" data-toggler>
+                                        <i data-toggle-icon
+                                           data-toggle-icon-collapsed="glyphicon-chevron-right"
+                                           data-toggle-icon-expanded="glyphicon-chevron-down"
+                                           class="glyphicon glyphicon-small glyphicon-chevron-right"></i>
+                                        <a href="#">Peter Lubbers</a>
+                                    </h3>
+                                    <h4 class="h-slim">Instructor</h4>
+                                    <div class="profile-box" data-toggle-target="hide">
+                                        <p class="pretty-print"><p>Peter Lubbers is a Program Manager at Google in the Chrome Developer Relations team and lives and breathes HTML5. He is the co-author of Pro HTML5 Programming (Apress) and the founder of the San Francisco HTML5 User Group, the largest HTML5 User Group in the world. A native of the Netherlands, Peter served as a Special Forces commando in the Royal Dutch Green Berets. In his spare time Peter likes jumping out of planes, bungee-jumping, and running ultra-marathons.</p>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-xs-12 col-sm-5 col-md-4">
+
+                        <div class="row row-gap-small visible-xs"></div>
+
+                        <div class="popular-courses">
+                            <div class="row">
+                                <div class="col-xs-12 col-md-10 col-md-offset-1">
+
+                                    <div class="row">
+                                        <div class="col-sm-12">
+                                            <h3>Popular Courses</h3>
+                                        </div>
+                                    </div>
+
+                                    <a href="/courses/responsive-images--ud882">Responsive Images</a> <br>
+                                    <a href="/courses/intro-to-algorithms--cs215">Intro to Algorithms</a> <br>
+                                    <a href="/courses/data-wrangling-with-mongodb--ud032">Data Wrangling with MongoDB</a> <br>
+                                    <a href="/courses/full-stack-foundations--ud088">Full Stack Foundations</a> <br>
+                                    <a href="/courses/intro-to-descriptive-statistics--ud827">Intro to Descriptive Statistics</a> <br>
+                                    <a href="/courses/programming-foundations-with-python--ud036">Programming Foundations with Python</a> <br>
+                                    <a href="/courses/health-informatics-in-the-cloud--ud809">Health Informatics in the Cloud</a> <br>
+                                    <a href="/courses/javascript-basics--ud804">JavaScript Basics</a> <br>
+                                    <a href="/courses/authentication-authorization-oauth--ud330">Authentication &amp; Authorization: OAuth</a> <br>
+                                    <a href="/courses/intro-to-ajax--ud110">Intro to AJAX</a> <br>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="section section-small">
+            <div class="container">
+
+                <div class="row row-gap-medium">
+                    <div class="col-xs-12 text-center">
+                        <img class="track-icon" alt="track icon" src="https://lh5.ggpht.com/5vPmXrsWhszqyeGqKWY2NkRzlHTJxizFsaBDxz0JElFlEDwiEIKWUHey0zCL4dm2xM-f2MEg8BkpwnHaV9Y=s0#w=60&amp;h=60">
+                    </div>
+                </div>
+
+                <div class="row row-gap-small">
+                    <div class="col-xs-12 text-center">
+                        <p class="text-large">
+                            View more courses in <br>
+                            <a href="/courses/web-development">Web Development</a>
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="section section-standout section-small" id="faq">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-md-8 col-md-offset-2">
+                        <h2 class="text-center">
+                            Frequently Asked Questions
+                        </h2>
+                    </div>
+                    <div class="col-xs-8 col-xs-offset-2">
+                        <hr>
+                    </div>
+                </div>
+                <div class="row row-gap-medium"></div>
+                <div class="row">
+                    <div class="col-xs-12 col-md-8 col-md-offset-2">
+                        <div class="faq-formatter">
+                            <h3>When does the course begin?</h3>
+
+                            <p>This class is self paced. You can begin whenever you like and then follow your own pace. It’s a good idea to set goals for yourself to make sure you stick with the course.</p>
+
+                            <h3>How long will the course be available?</h3>
+
+                            <p>This class will always be available! </p>
+
+                            <h3>How do I know if this course is for me?</h3>
+
+                            <p>Take a look at the “Class Summary,” “What Should I Know,” and “What Will I Learn” sections above. If you want to know more, just enroll in the course and start exploring.</p>
+
+                            <h3>Can I skip individual videos? What about entire lessons?</h3>
+
+                            <p>Yes! The point is for you to learn what YOU need (or want) to learn. If you already know something, feel free to skip ahead. If you ever find that you’re confused, you can always go back and watch something that you skipped.</p>
+
+                            <h3>How much does this cost?</h3>
+
+                            <p>It’s completely free! If you’re feeling generous, we would love to have you contribute your thoughts, questions, and answers to the course discussion forum.</p>
+
+                            <h3>What are the rules on collaboration?</h3>
+
+                            <p>Collaboration is a great way to learn. You should do it! The key is to use collaboration as a way to enhance learning, not as a way of sharing answers without understanding them. </p>
+
+                            <h3>Why are there so many questions?</h3>
+
+                            <p>Udacity classes are a little different from traditional courses. We intersperse our video segments with interactive questions. There are many reasons for including these questions: to get you thinking, to check your understanding, for fun, etc... But really, they are there to help you learn. They are NOT there to evaluate your intelligence, so try not to let them stress you out.</p>
+
+                            <h3>What should I do while I’m watching the videos?</h3>
+
+                            <p>Learn actively! You will retain more of what you learn if you take notes, draw diagrams, make notecards, and actively try to make sense of the material.</p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="footer-push"></div>
+</div>
+
+<footer>
+    <div class="contain">
+        <a href="/" class="footer_logo">
+            <img alt="Udacity" src="https://d125fmws0bore1.cloudfront.net/assets/svgs/logo_mark-9fe087a553be4f083e55902df9f650bcc2fad097714ec9740e5edf0cfba4bb0d.svg" />
+        </a>
+        <nav class="foot">
+            <ul class="footer_nav">
+                <li class="footer_nav_toggle">
+                    <h3>Featured Nanodegree Programs</h3>
+                    <ul class="nav_list">
+
+                        <li>
+                            <a href="/course/data-analyst-nanodegree--nd002">Data Analyst
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="/course/ios-developer-nanodegree--nd003">iOS Developer
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="/course/tech-entrepreneur-nanodegree--nd007">Tech Entrepreneur
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="/course/machine-learning-engineer-nanodegree--nd009">Machine Learning Engineer
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="/course/beginning-ruby--nd010">Beginning Ruby BETA</a>
+                        </li>
+
+                        <li>
+                            <a href="/course/android-developer-nanodegree--nd801">Android Developer
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="/course/senior-web-developer--nd802">Senior Web Developer</a>
+                        </li>
+
+                    </ul>
+                </li>
+                <li class="footer_nav_toggle">
+                    <h3>Student Resources</h3>
+                    <ul class="nav_list">
+                        <li>
+                            <a href="http://blog.udacity.com">Blog</a>
+                        </li>
+                        <li>
+                            <a href="http://support.udacity.com">Help&nbsp;&amp;&nbsp;FAQ</a>
+                        </li>
+                        <li>
+                            <a href="/courses/all">Catalog</a>
+                        </li>
+                        <li>
+                            <a href="/veterans">Veteran Programs</a>
+                        </li>
+                        <li>
+                            <a href="https://play.google.com/store/apps/details?id=com.udacity.android">Android App</a>
+                        </li>
+                        <li>
+                            <a href="https://itunes.apple.com/us/app/id819700933?mt=8">iOS App</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="footer_nav_toggle">
+                    <h3>Udacity</h3>
+                    <ul class="nav_list">
+                        <li>
+                            <a href="/us">About</a>
+                        </li>
+                        <li>
+                            <a href="/press">In the News</a>
+                        </li>
+                        <li>
+                            <a href="/jobs">Jobs @ Udacity</a>
+                        </li>
+                        <li>
+                            <a href="/georgia-tech">Georgia Tech</a>
+                        </li>
+                        <li>
+                            <a href="/business">Udacity for Business</a>
+                        </li>
+                        <li>
+                            <a href="/employers">Hire Graduates</a>
+                        </li>
+                        <li>
+                            <a href="/success">Student Success</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="footer_nav_toggle">
+                    <h3>Inquiries</h3>
+                    <ul class="nav_list">
+                        <!-- <li><a href="#">Press</a></li> -->
+                        <li>
+                            <a href="/contact">Contact Us</a>
+                        </li>
+                        <li>
+                            <a href="/catalog-api">Developer API</a>
+                        </li>
+                        <li>
+                            <a href="/legal">Legal</a>
+                        </li>
+                        <li>
+                            <a href="http://status.udacity.com">Service Status</a>
+                        </li>
+                        <li>
+                            <a href="/sitemap">Site Map</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+        <section class="footer_secondary">
+            <div class="utility">
+                <!--  <div id="language_drop-dd-placeholder" class="dd-container"><div class="dd-select"><input class="dd-selected-value" type="hidden" id="language_drop" value="us"><a class="dd-selected"><img class="dd-selected-image" src="../images/flags/flag-usa.png"><label class="dd-selected-text">United States</label></a><span class="dd-pointer dd-pointer-down"></span></div><ul class="dd-options dd-click-off-close" style=""><li><a class="dd-option dd-option-selected"> <input class="dd-option-value" type="hidden" value="us"> <img class="dd-option-image" src="../images/flags/flag-usa.png"> <label class="dd-option-text">United States</label></a></li><li><a class="dd-option"> <input class="dd-option-value" type="hidden" value="country_2"> <img class="dd-option-image" src="../images/flags/flag-brazil.png"> <label class="dd-option-text">Country Two</label></a></li><li><a class="dd-option"> <input class="dd-option-value" type="hidden" value="country_3"> <img class="dd-option-image" src="../images/flags/flag-canada.png"> <label class="dd-option-text">Country Three</label></a></li><li><a class="dd-option"> <input class="dd-option-value" type="hidden" value="country_4"> <img class="dd-option-image" src="../images/flags/flag-china.png"> <label class="dd-option-text">Country Four</label></a></li><li><a class="dd-option"> <input class="dd-option-value" type="hidden" value="country_5"> <img class="dd-option-image" src="../images/flags/flag-united-kingdom.png"> <label class="dd-option-text">Country Five</label></a></li></ul></div> -->
+        <span class="copyright">Nanodegree is a trademark of Udacity
+          <span>© 2011&ndash;2016 Udacity, Inc.</span>
+        </span>
+            </div>
+            <nav class="social">
+                <ul class="social_links">
+                    <li>
+                        <a href="https://twitter.com/udacity"><img alt="Twitter" src="https://d125fmws0bore1.cloudfront.net/assets/svgs/social_twitter-9d5df2d90c83133e469f14478749086159188f83283876c13d6b5956e84c927c.svg" /></a>
+                    </li>
+                    <li>
+                        <a href="https://www.facebook.com/Udacity"><img alt="Facebook" src="https://d125fmws0bore1.cloudfront.net/assets/svgs/social_facebook-db4737e8debd34185dffa30be1a417fb126d36384386d7ac63d3b2a226b2277f.svg" /></a>
+                    </li>
+                    <li>
+                        <a href="https://plus.google.com/+Udacity/posts"><img alt="Google +" src="https://d125fmws0bore1.cloudfront.net/assets/svgs/social_gplus-50c4b2873372dfa9615fc41111638266df1817e5d2d1dd72b0d72ac6c373b3b3.svg" /></a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/company/udacity"><img alt="LinkedIn" src="https://d125fmws0bore1.cloudfront.net/assets/svgs/social_linkedin-8fc4751fca48e5ef25bd402cab4e0b7db953559f32d4e616f9328167edbef062.svg" /></a>
+                    </li>
+                </ul>
+            </nav>
+        </section>
+    </div>
+</footer>
+
+<script src="https://d125fmws0bore1.cloudfront.net/assets/legacy/standalone/udacity/course_overview-940cc6e81035e8932f4aef4ab46075b98aeb0e00e5fb6029124d0d53564f3573.js"></script>
+
+<script>
+    (function ($, services) {
+        'use strict';
+
+        $('[data-show-guest]').hide();
+        services.users.getSession().then(function (data) {
+            if (!(data.account && data.account.registered)) {
+                $('[data-show-student]').hide();
+                $('[data-show-guest]').show(300);
+            }
+        });
+    })(jQuery, services);
+</script>
+</body>
+</html>
+</title>
+</head>
+<body>
+
+</body>
+</html>
