@@ -1,0 +1,15 @@
+using Node.js & Express
+
+Express is a module view controller framework that runs on top of Node.js
+
+Express
+
+- serve pages
+- interact with data bases
+- define routes
+
+pre good
+
+
+Jade is the default HTML engine/helper for Express
+uses slightly different syntax
