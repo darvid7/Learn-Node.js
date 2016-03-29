@@ -15,17 +15,17 @@ router.post('/send', function(req, res, next){
     var transporter = nodemailer.createTransport({
         service: 'Gmail',
         auth: {     // authenticate with gmail
-            user: 'authenticateME@gmail.com',
-            pass: 'mypass'
+            user: 'clientLogIn@gmail.com',   // logged in email (client)
+            pass: 'clientPass@gmail.com'                // logged in email pw (client)
         }
     });
 
     var mailOptions = {
-        from: 'John Doe <johndoe@outlook.com>',
-        to: 'authenticateME@gmail.com',
+        from: 'From name John Doe <johndoe@outlook.com>',     // sent from, note: the sent from email is the client's when you view the msg
+        to: 'serverEmail@gmail.com',                   // send to option (server/where everything goes)
         subject: 'Website Submission',
-        text: 'You have a new submission with the following details...Name: ' + req.body.name+ ' Email: ' + req.body.email + ' Message: ' + req.body.message,
-        html: '<p>You have a new submission with the following details<p/><ul><li>Name: ' + req.body.name + '<li/> <li>Email: ' + req.body.email + '<li/><li></li>Message: ' + req.body.message+'<li/><ul/>'
+        text: 'You have a new submission with the following details...Name: '+ req.body.name+' Email: '+req.body.email+' MessageA: '+req.body.message,
+        html: '<p>You have a new submission with the following details</p> <ul><li>Name: '+req.body.name+'</li><li>EmailA: '+req.body.email+'</li><li>Message: '+req.body.message+'</li></ul>'
     };
 
     transporter.sendMail(mailOptions, function (error, info) {
