@@ -2,7 +2,7 @@ using Node.js & Express
 
 Express is a module view controller framework that runs on top of Node.js
 
-Express
+Express (3rd party module)
 
 - serve pages
 - interact with data bases
@@ -13,3 +13,97 @@ pre good
 
 Jade is the default HTML engine/helper for Express
 uses slightly different syntax
+
+Front end:
+ - home
+ - few more pages
+ - contact form
+
+ Back end:
+ - node.js
+
+Open source node.js site has a good chance Express is installed
+
+Standard HTML
+
+<div class="container">
+    <p>
+        <a href="#">Link<a/>
+    <p/>
+<div/>
+
+Jade
+
+.container
+    p
+        a(href="#", att..)
+
+
+in .jason file
+
+{
+  "name": "express_website",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "body-parser": "~1.13.2",
+    "cookie-parser": "~1.3.5",
+    "debug": "~2.2.0",
+    "express": "~4.13.1",
+    "jade": "~1.11.0",
+    "morgan": "~1.6.1",
+    "serve-favicon": "~2.3.0",
+    "nodemailer" : "*"
+  }
+}
+"*" gets latest version
+
+go into project folder
+
+run npm install to install all dependencies in json
+
+app.js is main gateway to application
+
+default port 3000
+http://localhost:3000/
+
+layout.jade is core HTML
+
+layout warps around the index page
+it is being includied in block content (needs to be used in sub view files as well)
+
+layout.jade
+doctype html
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/style.css')
+  body
+    block content // here references bit in subview
+
+
+error.jade
+extends layout    // which is here
+
+block content
+  h1= message
+  h2= error.status
+  pre #{error.stack}
+
+
+note: content on home page is coming from the index view
+
+html to jade
+http://html2jade.org/
+
+extends layout
+
+block content
+  h1= title // title passed through, called Express from index.js note: }  #{} for concatenation
+  p Welcome to #{title}
+  // need #{title} when contactinate, however if no other data i.e. h1= title then can do without
+
+note: need to restart server when edit js to show it

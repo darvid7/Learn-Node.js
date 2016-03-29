@@ -1,0 +1,32 @@
+body {
+  padding-top:50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+
+.jumbotron{
+    background-color: lightblue;
+
+    /* rl(../images/bg.jpeg) no-repeat */
+}
+
+footer{
+    background:#D0F0E0;
+    height: 40px;
+    text-align: center;
+    margin-top:30px;
+    padding-top: 10px;
+    overflow: auto;
+
+}
+
+#mylist{
+    align-content: center;
+    background-color: lightcoral;
+    list-style-position: inside;
+
+}
+
+#books{
+    padding-left: 200px;
+}
