@@ -1,0 +1,145 @@
+Web Dev Crash Course 
+Content from Brad Traversy
+
+1. Catch up on Express [customerapp]
+2. Try build back end
+3. Try build front end
+
+~~ 1. Express.js [customerapp]~~
+https://www.youtube.com/watch?v=gnsO8-xJ8rs
+
+functions in Javascript, keyword function
+
+function myFunction[name] (p1, p2 [params]){
+    return p1*p2[code]
+};
+
+- minimalistic open source web framework for Node.js, really popular
+- used to build web applications and APIs
+- uses MVC concepts
+
+$ npm init					 // generate package.json
+$ npm install express --save // saves it to package.json or can add
+								it to the file (dependencies) then use $ npm install
+
+run using $ node app        // file name
+In package.json {} is a new object so
+"dependicies":{
+	"express":"ver_no"		 // "*" for most up to date
+}
+
+Cannot GET / menas we have not set the route yet
+
+-- Middleware --
+has access to the request and response object and the next piece of middleware that will fire after
+
+nodemon - so you don't need to restart server after changes
+npm install nodemon -g
+now instead of $ node app use $ nodemon
+
+-- Working with template engines--
+EJS - embedded JavaScript, client side templating language
+- standard HTML with variable includes
+can use Jade as well
+
+don't want to repeat code for every single view --> create partials
+now we have a set header and footer we can reuse for each page via
+<% include partials/header %>
+
+-- Validation, express validator --
+can find middleware set up on github https://github.com/ctavan/express-validator
+just need to copy it into our middleware section
+
+-- brining Mongo DB into applicaiton --
+mongoose is really popular
+but using a simple one mongo.js for this example
+https://github.com/mafintosh/mongojs
+
+-- MongoDB notes --
+path: cd to
+usr/local/Cellar/mongodb/3.2.7/bin
+
+in terminal start mongo service
+sudo ./mongod
+
+in another terminal window enter mongo shell
+./mongo
+
+user database_name 				// create new database
+// switches to above db
+db.createCollection(‘collection_name’)	// creates a collection i.e. users
+
+db.collection_name.insert([
+{first_name:”stuff”…},{},..
+])
+
+{} for each user object
+
+db.collection_name.find()	// shows everything in that collection
+
+i.e. for customer app have a collection (db or table) of users
+-- MongoDB notes end --
+
+The POST request method is designed to request that a web server accepts the data enclosed in the request message's
+body for storage. It is often used when uploading a file or submitting a completed web form.
+In contrast, the HTTP GET request method is designed to retrieve information from the server.
+
+GET - from server
+POST (man) - take my data
+
+for delete request - do through ajax
+
+
+~~ 2. RESTful API using Node, Express, Mongo [Backend bookstore] ~~
+Backend
+- Node.js: JavaScript on the server
+- Express: web framework with a server we can use to handle our requests
+- MongoDB: data storage w/ mongoose
+Frontend
+- Angularjs
+
+Since we are using mongoose want models for our data
+body-parser: allows us to submit forms and make post request and get values from forms
+
+---- Mongo db ----
+> show dbs
+customerapp  0.000GB
+local        0.000GB
+nodeauth     0.000GB
+> use bookstore
+switched to db bookstore
+> show collections
+> db.createCollection('books')
+{ "ok" : 1 }
+> show collections
+books
+
+insert a json object {}
+
+bd.books.find().pretty() // nice format
+
+-- Making POST Requests --
+can use RESTEasy to do it via chrome
+- need quotes around key as well
+{
+  	"name":"Romance"
+}
+Response Status: 200 (OK)
+
+Date: Fri, 29 Jul 2016 12:36:53 GMT
+ETag: W/"64-xSaf6nkX5JtTsRGb1hDoeA"
+Connection: keep-alive
+X-Powered-By: Express
+Content-Length: 100
+Content-Type: application/json; charset=utf-8
+
+{"__v":0,"name":"Romance","_id":"579b4de5584113aaaf3aee15","create_date":"2016-07-29T12:36:34.419Z"}
+
+Note: in production would add in a lot of security and break down the input instead of letting it
+go directly to ur db
+
+
+Note PUT will overwirte entire object in db, so if some fields aren't there in RESTEasy it will become null
+can use SET instead to just update a few values
+
+https://www.youtube.com/watch?v=eB9Fq9I5ocs
