@@ -91,6 +91,8 @@ for delete request - do through ajax
 
 
 ~~ 2. RESTful API using Node, Express, Mongo [Backend bookstore] ~~
+https://www.youtube.com/watch?v=eB9Fq9I5ocs
+
 Backend
 - Node.js: JavaScript on the server
 - Express: web framework with a server we can use to handle our requests
@@ -142,4 +144,26 @@ go directly to ur db
 Note PUT will overwirte entire object in db, so if some fields aren't there in RESTEasy it will become null
 can use SET instead to just update a few values
 
-https://www.youtube.com/watch?v=eB9Fq9I5ocs
+complete RESTful API done :D
+
+~~ 3. RESTful API Angular [frontend bookstore] ~~
+https://www.youtube.com/watch?v=qrIvv6OTN2Y
+
+AnguarJS
+- angular things goes into controllers
+
+need:
+- Angular
+- Angular route
+- Bookstrap
+- JQuery
+
+install via bower
+
+Bower is a package manger for the client side
+NPM is a package manager for the server side
+
+$ bower install --save bootstrap angular angular-route jquery
+
+in index.html
+<html lang="en" ng-app="myApp"> <!-- initalizer for angular -->

@@ -2,12 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd59ad28-011c-4436-8533-9c523a8519b5" name="Default" comment="wip project 4 user log in system">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/LearnNodejs.iml" afterPath="$PROJECT_DIR$/.idea/LearnNodejs.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExpressRefresher/bookstore/client/app.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExpressRefresher/bookstore/client/controllers/books.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExpressRefresher/bookstore/client/controllers/genres.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExpressRefresher/bookstore/client/css/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExpressRefresher/bookstore/client/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExpressRefresher/bookstore/client/views/add_book.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExpressRefresher/bookstore/client/views/book_details.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExpressRefresher/bookstore/client/views/books.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExpressRefresher/bookstore/client/views/edit_book.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nodejs_Projects/proj2_Basic_Express_Website/express_website/app.js" afterPath="$PROJECT_DIR$/Nodejs_Projects/proj2_Basic_Express_Website/express_website/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nodejs_Projects/proj2_Basic_Express_Website/express_website/views/contact.jade" afterPath="$PROJECT_DIR$/Nodejs_Projects/proj2_Basic_Express_Website/express_website/views/contact.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ExpressRefresher/Notes.txt" afterPath="$PROJECT_DIR$/ExpressRefresher/Notes.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ExpressRefresher/bookstore/app.js" afterPath="$PROJECT_DIR$/ExpressRefresher/bookstore/app.js" />
     </list>
     <ignored path="LearnNodejs.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,41 +35,107 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Notes.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ExpressRefresher/Notes.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="516">
+              <caret line="167" column="13" selection-start-line="167" selection-start-column="13" selection-end-line="167" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ExpressRefresher/bookstore/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ExpressRefresher/bookstore/client/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="21" column="59" selection-start-line="21" selection-start-column="59" selection-end-line="21" selection-end-column="59" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ExpressRefresher/customerapp/app.js">
+        <entry file="file://$PROJECT_DIR$/ExpressRefresher/bookstore/client/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="179" column="0" selection-start-line="179" selection-start-column="0" selection-end-line="179" selection-end-column="0" />
+            <state relative-caret-position="330">
+              <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+              <folding>
+                <element signature="e#0#42#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="book.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ExpressRefresher/bookstore/models/book.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="261">
+              <caret line="72" column="16" selection-start-line="72" selection-start-column="16" selection-end-line="72" selection-end-column="16" />
+              <folding>
+                <element signature="e#0#42#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="books.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ExpressRefresher/bookstore/client/controllers/books.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="26" column="22" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
+              <folding>
+                <element signature="e#0#42#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="add_book.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ExpressRefresher/bookstore/client/views/add_book.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="68" column="10" selection-start-line="68" selection-start-column="10" selection-end-line="68" selection-end-column="10" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ExpressRefresher/customerapp/public/js/main.js">
+      <file leaf-file-name="books.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ExpressRefresher/bookstore/client/views/books.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+            <state relative-caret-position="285">
+              <caret line="19" column="35" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/startbootstrap-freelancer-gh-pages/.gitignore">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ExpressRefresher/bookstore/client/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="12" />
+            <state relative-caret-position="45">
+              <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+      <file leaf-file-name="book_details.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ExpressRefresher/bookstore/client/views/book_details.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="12" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
+            <state relative-caret-position="375">
+              <caret line="31" column="8" selection-start-line="0" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -74,8 +147,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Jade File" />
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -85,23 +158,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Nodejs_Projects/proj2_Basic_Express_Website/express_website/views/about.jade" />
-        <option value="$PROJECT_DIR$/Nodejs_Projects/proj2_Basic_Express_Website/express_website/public/stylesheets/style.css" />
-        <option value="$PROJECT_DIR$/Nodejs_Projects/proj2_Basic_Express_Website/express_website/routes/contact.js" />
-        <option value="$PROJECT_DIR$/Nodejs_Projects/proj2_Basic_Express_Website/express_website/views/contact.jade" />
-        <option value="$PROJECT_DIR$/NewWords_IEEE_WebWorkshop/Server/package.json" />
-        <option value="$PROJECT_DIR$/NewWords_IEEE_WebWorkshop/Server/server.js" />
-        <option value="$PROJECT_DIR$/Nodejs_Projects/proj2_Basic_Express_Website/express_website/app.js" />
-        <option value="$PROJECT_DIR$/Robogals_WebDev_Practice/Codementor_Website/index_files/contact_me.js" />
-        <option value="$PROJECT_DIR$/Robogals_WebDev_Practice/Codementor_Website/temp.html" />
-        <option value="$PROJECT_DIR$/Robogals_WebDev_Practice/tmp/Freelancer - Start Bootstrap Theme_files/contact_me.php" />
-        <option value="$PROJECT_DIR$/Robogals_WebDev_Practice/tmp/Freelancer - Start Bootstrap Theme_files/contact_me.js" />
-        <option value="chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/uiscripts/blacklisting/rightclick_hook.js" />
-        <option value="chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/notificationoverlay.js" />
-        <option value="$PROJECT_DIR$/startbootstrap-freelancer-gh-pages/mail/contact_me.php" />
-        <option value="$PROJECT_DIR$/startbootstrap-freelancer-gh-pages/js/contact_me.js" />
-        <option value="$PROJECT_DIR$/startbootstrap-freelancer-gh-pages/index.html" />
-        <option value="$PROJECT_DIR$/Robogals_WebDev_Practice/tmp/Freelancer - Start Bootstrap Theme.html" />
         <option value="$PROJECT_DIR$/Robogals_WebDev_Practice/tmp/Freelancer - Start Bootstrap Theme_files/freelancer.css" />
         <option value="$PROJECT_DIR$/Robogals_WebDev_Practice/Codementor_Website/index.html" />
         <option value="$PROJECT_DIR$/Robogals_WebDev_Practice/Codementor_Website/index_files/freelancer.css" />
@@ -136,6 +192,23 @@
         <option value="$PROJECT_DIR$/ExpressRefresher/customerapp/views/index.ejs" />
         <option value="$PROJECT_DIR$/ExpressRefresher/customerapp/app.js" />
         <option value="$PROJECT_DIR$/ExpressRefresher/customerapp/public/js/main.js" />
+        <option value="$PROJECT_DIR$/startbootstrap-freelancer-gh-pages/.gitignore" />
+        <option value="$PROJECT_DIR$/ExpressRefresher/bookstore/package.json" />
+        <option value="$PROJECT_DIR$/ExpressRefresher/bookstore/models/genre.js" />
+        <option value="$PROJECT_DIR$/ExpressRefresher/bookstore/models/book.js" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/ExpressRefresher/bookstore/app.js" />
+        <option value="$PROJECT_DIR$/ExpressRefresher/bookstore/client/inde.html" />
+        <option value="$PROJECT_DIR$/ExpressRefresher/bookstore/client/controllers/genres.js" />
+        <option value="$PROJECT_DIR$/ExpressRefresher/bookstore/client/views/edit_book.html" />
+        <option value="$PROJECT_DIR$/ExpressRefresher/Notes.txt" />
+        <option value="$PROJECT_DIR$/ExpressRefresher/bookstore/client/app.js" />
+        <option value="$PROJECT_DIR$/ExpressRefresher/bookstore/client/css/style.css" />
+        <option value="$PROJECT_DIR$/ExpressRefresher/bookstore/client/views/books.html" />
+        <option value="$PROJECT_DIR$/ExpressRefresher/bookstore/client/index.html" />
+        <option value="$PROJECT_DIR$/ExpressRefresher/bookstore/client/views/book_details.html" />
+        <option value="$PROJECT_DIR$/ExpressRefresher/bookstore/client/controllers/books.js" />
+        <option value="$PROJECT_DIR$/ExpressRefresher/bookstore/client/views/add_book.html" />
       </list>
     </option>
   </component>
@@ -149,9 +222,9 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="380" />
-    <option name="y" value="24" />
-    <option name="width" value="958" />
+    <option name="x" value="640" />
+    <option name="y" value="23" />
+    <option name="width" value="640" />
     <option name="height" value="709" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -207,14 +280,180 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="startbootstrap-freelancer-gh-pages" />
+              <option name="myItemId" value="ExpressRefresher" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LearnNodejs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LearnNodejs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ExpressRefresher" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bookstore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LearnNodejs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LearnNodejs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ExpressRefresher" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bookstore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LearnNodejs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LearnNodejs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ExpressRefresher" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bookstore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LearnNodejs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LearnNodejs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ExpressRefresher" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bookstore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LearnNodejs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LearnNodejs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ExpressRefresher" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bookstore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LearnNodejs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LearnNodejs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ExpressRefresher" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bookstore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LearnNodejs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LearnNodejs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ExpressRefresher" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bookstore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bower_components" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -231,11 +470,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ExpressRefresher" />
       <recent name="$PROJECT_DIR$/ExpressRefresher/customerapp" />
       <recent name="$PROJECT_DIR$/Robogals_WebDev_Practice/tmp/Freelancer - Start Bootstrap Theme_files/mail" />
       <recent name="$PROJECT_DIR$/HTML_Practice" />
       <recent name="$PROJECT_DIR$/HTML Practice/Codecademy_MakeAWebsite" />
-      <recent name="$PROJECT_DIR$/HTML Practice/Codecademy_MakeAWebsite/HTML_Site_Structure" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -369,12 +608,13 @@
       <workItem from="1466480227379" duration="900000" />
       <workItem from="1466491533381" duration="8277000" />
       <workItem from="1469695694153" duration="14004000" />
-      <workItem from="1469778202257" duration="221000" />
+      <workItem from="1469778202257" duration="589000" />
+      <workItem from="1469791011241" duration="13700000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="106947000" />
+    <option name="totallyTimeSpent" value="121015000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -386,26 +626,26 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="380" y="24" width="958" height="709" extended-state="0" />
+    <frame x="640" y="23" width="640" height="709" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17075774" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37163374" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2494043" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290938" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32901135" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -435,50 +675,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Nodejs_Projects/proj3_UserLogin_System/nodeauth/public/javascripts/bootstrap.js" />
-    <entry file="file://$PROJECT_DIR$/Nodejs_Projects/proj3_UserLogin_System/nodeauth/node_modules/express/lib/application.js" />
-    <entry file="file://$PROJECT_DIR$/Nodejs_Projects/proj2_Basic_Express_Website/express_website/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Nodejs_Projects/proj2_Basic_Express_Website/t.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Nodejs_Projects/proj2_Basic_Express_Website/express_website/views/index.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Robogals_WebDev_Practice/Codementor_formless/fonts/glyphicons-halflings-regular.svg" />
-    <entry file="file://$PROJECT_DIR$/Robogals_WebDev_Practice/Codementor_v2/js/bootstrap.js" />
-    <entry file="file://$PROJECT_DIR$/Nodejs_Projects/proj2_Basic_Express_Website/express_website/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Nodejs_Projects/proj2_Basic_Express_Website/notes.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="108" column="52" selection-start-line="108" selection-start-column="52" selection-end-line="108" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Nodejs_Projects/proj3_UserLogin_System/nodeauth/package.json" />
-    <entry file="file://$PROJECT_DIR$/Nodejs_Projects/proj3_UserLogin_System/nodeauth/public/stylesheets/bootstrap.css" />
-    <entry file="file://$PROJECT_DIR$/Nodejs_Projects/proj3_UserLogin_System/nodeauth/views/error.jade" />
-    <entry file="file://$PROJECT_DIR$/Nodejs_Projects/proj3_UserLogin_System/nodeauth/public/stylesheets/style.css" />
-    <entry file="file://$PROJECT_DIR$/Nodejs_Projects/proj3_UserLogin_System/nodeauth/routes/users.js" />
     <entry file="file://$PROJECT_DIR$/Nodejs_Projects/proj3_UserLogin_System/nodeauth/node_modules/multer/lib/file-appender.js" />
     <entry file="file://$PROJECT_DIR$/Nodejs_Projects/proj3_UserLogin_System/nodeauth/routes/index.js" />
     <entry file="file://$PROJECT_DIR$/StarterApp/views/error.jade" />
@@ -512,9 +708,6 @@
     <entry file="file://$PROJECT_DIR$/Nodejs_Projects/proj3_UserLogin_System/notes.txt" />
     <entry file="file://$PROJECT_DIR$/Nodejs_Projects/proj3_UserLogin_System/nodeauth/app.js" />
     <entry file="file://$PROJECT_DIR$/backup" />
-    <entry file="file://$PROJECT_DIR$/ExpressRefresher/backup_ers" />
-    <entry file="file://$PROJECT_DIR$/ExpressRefresher/backup_cur" />
-    <entry file="file://$PROJECT_DIR$/ExpressRefresher/customerapp/Notes.txt" />
     <entry file="file://$PROJECT_DIR$/ExpressRefresher/customerapp/views/partials/footer.ejs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -538,7 +731,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ExpressRefresher/customerapp/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
+        <state relative-caret-position="2685">
           <caret line="179" column="0" selection-start-line="179" selection-start-column="0" selection-end-line="179" selection-end-column="0" />
           <folding />
         </state>
@@ -552,19 +745,163 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/startbootstrap-freelancer-gh-pages/.gitignore">
+    <entry file="file://$PROJECT_DIR$/ExpressRefresher/backup_cur">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="12" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ExpressRefresher/backup_ers">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/startbootstrap-freelancer-gh-pages/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ExpressRefresher/bookstore/models/genre.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="426">
+          <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="50" selection-end-column="2" />
+          <folding>
+            <element signature="e#0#42#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="12" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
+        <state relative-caret-position="90">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ExpressRefresher/bookstore/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ExpressRefresher/bookstore/client/controllers/genres.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ExpressRefresher/bookstore/client/views/edit_book.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ExpressRefresher/bookstore/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ExpressRefresher/bookstore/client/bower_components/bootstrap/bower.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ExpressRefresher/Notes.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="516">
+          <caret line="167" column="13" selection-start-line="167" selection-start-column="13" selection-end-line="167" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ExpressRefresher/bookstore/models/book.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="72" column="16" selection-start-line="72" selection-start-column="16" selection-end-line="72" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#42#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ExpressRefresher/bookstore/client/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#42#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ExpressRefresher/bookstore/client/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ExpressRefresher/bookstore/client/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="21" column="59" selection-start-line="21" selection-start-column="59" selection-end-line="21" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ExpressRefresher/bookstore/client/views/books.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="35" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ExpressRefresher/bookstore/client/views/book_details.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="31" column="8" selection-start-line="0" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ExpressRefresher/bookstore/client/views/add_book.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="68" column="10" selection-start-line="68" selection-start-column="10" selection-end-line="68" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ExpressRefresher/bookstore/client/controllers/books.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="26" column="22" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#42#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

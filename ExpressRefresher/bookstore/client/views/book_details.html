@@ -1,0 +1,42 @@
+<!-- Books home page -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <h1> Books </h1>
+</head>
+<body>
+<a href="#/books">Go Back</a>
+<p>Feel free to browse</p>                     <!-- run what ever is in ng-init, need to call fn getBooks() -->
+<div class="panel panel-default" ng-init="getBook()">
+    <div class="panel-heading">
+        <h3 class ="panel-title">{{book.title}}</h3>
+    </div>
+    <div class="panel-body">
+        <div class="row">
+            <div class="col-md-4">
+                <img src="{{book.image_url}}">
+            </div>
+            <div class="col-md-8">
+                <p>{{bbook.description}}</p>
+
+                <ul class="list-group">
+                    <li class="list-group-item">Genre: {{book.genre}}</li>
+                    <li class="list-group-item">Author: {{book.author}}</li>
+                    <li class="list-group-item">Publisher: {{book.publisher}}</li>
+                    <li class="list-group-item">Pages: {{book.pages}}</li>
+
+
+                </ul>
+                <a target="_blank" href="{{book.buy_url}}" class="btn btn-primary">Buy :P</a>
+
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+</body>
+</html>

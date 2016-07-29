@@ -6,6 +6,9 @@ var app = express();
 var bodyParser = require("body-parser");
 var mongoose = require("mongoose");
 
+// server side code to set up frontend folder
+app.use(express.static(__dirname+'/client')); // all we need to do for the front end on the server side
+
 // Middleware for bodyParser
 app.use(bodyParser.json());
 
@@ -22,6 +25,8 @@ var db = mongoose.connecttion;
 app.get('/', function(req, res){
     res.send("Please use /api/books or /api/genres");  // send to browser
 });
+
+/* API BELOW */
 
 /* ------------------------------  GENRES ------------------------------ */
 
@@ -139,5 +144,6 @@ app.delete('/api/books/:_id', function(req, res){ // can be on same url as diff 
     });
 });
 
+// start server
 app.listen(3000);
 console.log("Running");
