@@ -1,0 +1,53 @@
+<% include partials/header %>
+    <!-- adding a form!
+     method = post (data)
+     action is the route we want to send it to
+     can check if errors with embedded js like so -->
+    <% if(errors){ %>
+        <ul>
+        <% errors.forEach(function(error){ %>
+            <li>
+                <%= error.msg %>
+            </li>
+        <% }) %>
+        </ul>
+    <% } %>
+
+    <h1>Add Customer</h1>
+    <form method="POST" action="/users/add">
+        <label>First Name</label><br>
+        <input type="text" name="first_name">
+        <br>
+        <label>Last Name</label><br>
+        <input type="text" name="last_name">
+        <br>
+        <label>Email</label><br>
+        <input type="text" name="email">
+        <br><br>
+        <input type="submit" value="Submit">
+    </form>
+
+
+    <h2><%= title%></h2>
+    <%= users%>
+    <!-- outputting values use %=, else just % i.e. in a loop
+    ul is unordered list
+    li is list element
+    note that we need < % on the line declaring the fn and ending it on both sides
+     also note the local var user is in
+     .forEach(function(local_var){ -->
+    <ul>
+    <% users.forEach(function(user){ %>
+        <li>
+            User:
+            <%= user.id %> =
+            <%= user.first_name %>
+            <%= user.last_name %>
+            <a href="#" class="deleteUser" data-id="<%= user._id %>" >Delete</a> <!-- now each customer has a del link-->
+        </li>
+    <% }) %>
+    </ul>
+
+    <h1>Hello from EJS</h1>
+    <!-- above allows us to pass on the var title to the html -->
+<% include partials/footer %>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- js script on webpage-->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+    <script>
+        $(document).ready( function(){
+            $("#mybutton").click( function () {
+                var db = openDatabase("my db","1.0", "test dbdb","200000");
+
+                alert("Database has been created");
+
+            });
+        });
+
+    </script>
+
+</head>
+
+<body>
+<script>(function(e,t,n,o){var s,c,i;e.SMCX=e.SMCX||[],t.getElementById(o)||(s=t.getElementsByTagName(n),c=s[s.length-1],i=t.createElement(n),i.type="text/javascript",i.async=!0,i.id=o,i.src=["https:"===location.protocol?"https://":"http://","widget.surveymonkey.com/collect/website/js/9AxQ7SC_2Ff7JIIk_2F2OWqi5uM1_2FuiI9IFDvlHRfwJHn_2FeyXDvMTHKgMU3wClu1Ow7R.js"].join(""),c.parentNode.insertBefore(i,c))})(window,document,"script","smcx-sdk");</script><a style="font: 12px Helvetica, sans-serif; color: #999; text-decoration: none;" href=https://www.surveymonkey.com/mp/customer-satisfaction-surveys/> Create your own user feedback survey </a>
+<input id="mybutton" type="button" value="Create DataBase"/>
+
+
+</body>
+
+</html>

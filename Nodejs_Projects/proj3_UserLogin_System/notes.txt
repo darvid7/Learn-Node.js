@@ -1,0 +1,82 @@
+Complete Custom User Log in & Rego System
+
+MongoDB (database) - noSQL DB
+- adding, logging, authenticating etc
+- stores info in json format
+- common DB for node.js
+
+A NoSQL (originally referring to "non SQL" or "non relational") database provides a mechanism for storage and retrieval of data which is modeled in means other than the tabular relations used in relational databases.
+
+NOT RELATIONAL DB
+
+Mongoose - interface to deal with MongoDB
+- object relational mapper (interface to deal with MongoDB)
+
+path --> /Documents/MongoDB
+To run:
+MongoDB/bin # start it ./mongod
+            # run shell ./mongo
+            1. start in terminal with sudo mongod or ./mongod
+            2. open another terminal window and go to bin, run mongo for shell interface
+            3. db => what db ur currently on
+show collections
+> db.createCollection('users')
+{ "ok" : 1 }
+
+> db.collection_name.insert({fields in json format}); # don't need a schema
+
+> db.users.insert({name: 'Brad Tanning', username: 'devuser1', email: 'brad@brad.com', password: '1234'});
+WriteResult({ "nInserted" : 1 })
+>
+
+# show all entries
+> db.users.find()
+{ "_id" : ObjectId("57661465bbe3ed58bda68457"), "name" : "Brad Tanning", "username" : "devuser1", "email" : "brad@brad.com", "password" : "1234" }
+> db.users.find().pretty()
+{
+	"_id" : ObjectId("57661465bbe3ed58bda68457"),
+	"name" : "Brad Tanning",
+	"username" : "devuser1",
+	"email" : "brad@brad.com",
+	"password" : "1234"
+}
+
+set vs update, set will change specified values, udpate updates entry to those alues
+
+> db.users.update({username: 'devuser1'}, {$set:{email:'devuser1@gmail.com'}});
+WriteResult({ "nMatched" : 1, "nUpserted" : 0, "nModified" : 1 })
+
+### EXPRESS
+- installed globally
+- to generate in application folder by just express (cd into folder first)
+
+- dependencies in package.json
+    - mongoose to interact with mongodb
+    - connect flash to send flash messages over a session, works with express messages
+
+Passport - pref module for user authentication (bulky)
+    - helps with user auth
+    - local, twitter, fb etc allows you to log onto those netowrks from application
+
+Bcrypt- decryption
+
+
+
+**Middleware**
+software that acts as a bridge between an operating system or database and applications, especially on a network.
+- so b/w application (code) & thing we need to run it (packages, dbs etc)
+
+
+// Video 4
+
+to add bootstrap for nicer frontend
+copy
+- bootstrap.css into public/stylesheets
+- boostrap.js into public/javascripts
+- fonts into public
+
+layout.jade # responsible for doctype, headers, html tags etc, top lvl of site in terms of html pages
+
+class = check var titl login, if so then 'active' else nothing ' '
+                                ?                   :
+            li(class=(title == 'Login' ? 'active' : ' '))

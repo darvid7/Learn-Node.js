@@ -1,0 +1,68 @@
+Web Dev Crash Course 
+Content from Brad Traversy
+
+1. Catch up on Express
+2. Enforce Express
+3. Try build back end
+4. Try build front end
+
+~~ 1. Express.js ~~
+https://www.youtube.com/watch?v=gnsO8-xJ8rs
+
+functions in Javascript, keyword function
+
+function myFunction[name] (p1, p2 [params]){
+    return p1*p2[code]
+};
+
+- minimalistic open source web framework for Node.js, really popular
+- used to build web applications and APIs
+- uses MVC concepts
+
+$ npm init					 // generate package.json
+$ npm install express --save // saves it to package.json or can add
+								it to the file (dependencies) then use $ npm install
+
+run using $ node app        // file name
+In package.json {} is a new object so
+"dependicies":{
+	"express":"ver_no"		 // "*" for most up to date
+}
+
+Cannot GET / menas we have not set the route yet
+
+-- Middleware --
+has access to the request and response object and the next piece of middleware that will fire after
+
+nodemon - so you don't need to restart server after changes
+npm install nodemon -g
+now instead of $ node app use $ nodemon
+
+-- Working with template engines--
+EJS - embedded JavaScript, client side templating language
+- standard HTML with variable includes
+can use Jade as well
+
+don't want to repeat code for every single view --> create partials
+now we have a set header and footer we can reuse for each page via
+<% include partials/header %>
+
+-- Validation, express validator --
+can find middleware set up on github https://github.com/ctavan/express-validator
+just need to copy it into our middleware section
+
+-- brining Mongo DB into applicaiton --
+mongoose is really popular
+but using a simple one mongo.js for this example
+https://github.com/mafintosh/mongojs
+
+The POST request method is designed to request that a web server accepts the data enclosed in the request message's
+body for storage. It is often used when uploading a file or submitting a completed web form.
+In contrast, the HTTP GET request method is designed to retrieve information from the server.
+
+GET - from server
+POST (man) - take my data
+
+for delete request - do through ajax
+
+https://www.youtube.com/watch?v=OlapNW9Jc8s

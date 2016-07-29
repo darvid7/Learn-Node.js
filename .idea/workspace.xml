@@ -1,15 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dd59ad28-011c-4436-8533-9c523a8519b5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Nodejs_Projects/proj2_Basic_Express_Website/express_website/routes/about.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Nodejs_Projects/proj2_Basic_Express_Website/express_website/routes/contact.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Nodejs_Projects/proj2_Basic_Express_Website/express_website/views/about.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Nodejs_Projects/proj2_Basic_Express_Website/express_website/views/contact.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Nodejs_Projects/proj2_Basic_Express_Website/t.html" />
+    <list default="true" id="dd59ad28-011c-4436-8533-9c523a8519b5" name="Default" comment="wip project 4 user log in system">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/LearnNodejs.iml" afterPath="$PROJECT_DIR$/.idea/LearnNodejs.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nodejs_Projects/proj2_Basic_Express_Website/notes.txt" afterPath="$PROJECT_DIR$/Nodejs_Projects/proj2_Basic_Express_Website/notes.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nodejs_Projects/proj2_Basic_Express_Website/express_website/app.js" afterPath="$PROJECT_DIR$/Nodejs_Projects/proj2_Basic_Express_Website/express_website/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nodejs_Projects/proj2_Basic_Express_Website/express_website/views/contact.jade" afterPath="$PROJECT_DIR$/Nodejs_Projects/proj2_Basic_Express_Website/express_website/views/contact.jade" />
     </list>
     <ignored path="LearnNodejs.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,105 +28,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="about.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Nodejs_Projects/proj2_Basic_Express_Website/express_website/routes/about.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="14" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#42#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="about.jade" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Nodejs_Projects/proj2_Basic_Express_Website/express_website/views/about.jade">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HTML_Practice/Codecademy_MakeAWebsite/unit1_HTML_Site_Structure/main.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="571">
-              <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HTML_Practice/Codecademy_MakeAWebsite/unit1_HTML_Site_Structure/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Nodejs_Projects/proj2_Basic_Express_Website/express_website/public/stylesheets/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="contact.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Nodejs_Projects/proj2_Basic_Express_Website/express_website/routes/contact.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="23" column="47" selection-start-line="23" selection-start-column="47" selection-end-line="23" selection-end-column="47" />
-              <folding>
-                <element signature="e#0#42#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="contact.jade" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Nodejs_Projects/proj2_Basic_Express_Website/express_website/views/contact.jade">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="48" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Nodejs_Projects/proj2_Basic_Express_Website/express_website/app.js">
+        <entry file="file://$PROJECT_DIR$/ExpressRefresher/customerapp/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="331">
-              <caret line="53" column="27" selection-start-line="53" selection-start-column="27" selection-end-line="53" selection-end-column="27" />
+            <state relative-caret-position="276">
+              <caret line="179" column="0" selection-start-line="179" selection-start-column="0" selection-end-line="179" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Nodejs_Projects/proj2_Basic_Express_Website/express_website/routes/index.js">
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ExpressRefresher/customerapp/public/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+            <state relative-caret-position="75">
+              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="users.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Nodejs_Projects/proj2_Basic_Express_Website/express_website/routes/users.js">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/startbootstrap-freelancer-gh-pages/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="12" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -139,9 +73,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Jade File" />
         <option value="HTML File" />
         <option value="JavaScript File" />
-        <option value="Jade File" />
       </list>
     </option>
   </component>
@@ -151,36 +85,63 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Tests/helloworld.js" />
-        <option value="$PROJECT_DIR$/Tests/helloworld.html" />
-        <option value="$PROJECT_DIR$/proj1_Simple_Web_Server/server.js" />
-        <option value="$PROJECT_DIR$/proj1_Simple_Web_Server/notes.txt" />
-        <option value="$PROJECT_DIR$/proj1_Simple_Web_Server/index.html" />
-        <option value="$PROJECT_DIR$/proj1_Simple_Web_Server/test.html" />
-        <option value="$PROJECT_DIR$/proj1_Simple_Web_Server/utube.html" />
-        <option value="$PROJECT_DIR$/HTML Practice/helloworld.html" />
-        <option value="$PROJECT_DIR$/HTML Practice/codecademy_makeawebsite.html" />
-        <option value="$PROJECT_DIR$/HTML Practice/main.css" />
-        <option value="$PROJECT_DIR$/HTML Practice/codecademy_makeawebsite/cities.html" />
-        <option value="$PROJECT_DIR$/HTML Practice/codecademy_makeawebsite/index.html" />
-        <option value="$PROJECT_DIR$/LearnNodejs/proj1_Simple_Web_Server/server.js" />
-        <option value="$PROJECT_DIR$/HTML Practice/Codecademy_MakeAWebsite/info.txt" />
-        <option value="$PROJECT_DIR$/HTML Practice/Codecademy_MakeAWebsite/unit2_CSS_Closer_Look/index.html" />
-        <option value="$PROJECT_DIR$/HTML Practice/Codecademy_MakeAWebsite/unit2_CSS_Closer_Look/main.css" />
-        <option value="$PROJECT_DIR$/Nodejs_Projects/proj2_Basic_Express_Website/express_website/package.json" />
-        <option value="$PROJECT_DIR$/Nodejs_Projects/proj2_Basic_Express_Website/t.html" />
-        <option value="$PROJECT_DIR$/Nodejs_Projects/proj2_Basic_Express_Website/notes.txt" />
-        <option value="$PROJECT_DIR$/Nodejs_Projects/proj2_Basic_Express_Website/express_website/routes/index.js" />
-        <option value="$PROJECT_DIR$/Nodejs_Projects/proj2_Basic_Express_Website/express_website/views/index.jade" />
-        <option value="$PROJECT_DIR$/Nodejs_Projects/proj2_Basic_Express_Website/express_website/routes/about.js" />
-        <option value="$PROJECT_DIR$/Nodejs_Projects/proj2_Basic_Express_Website/express_website/views/layout.jade" />
         <option value="$PROJECT_DIR$/Nodejs_Projects/proj2_Basic_Express_Website/express_website/views/about.jade" />
         <option value="$PROJECT_DIR$/Nodejs_Projects/proj2_Basic_Express_Website/express_website/public/stylesheets/style.css" />
-        <option value="$PROJECT_DIR$/Nodejs_Projects/proj2_Basic_Express_Website/express_website/app.js" />
-        <option value="$PROJECT_DIR$/Nodejs_Projects/proj2_Basic_Express_Website/express_website/views/contact.jade" />
         <option value="$PROJECT_DIR$/Nodejs_Projects/proj2_Basic_Express_Website/express_website/routes/contact.js" />
+        <option value="$PROJECT_DIR$/Nodejs_Projects/proj2_Basic_Express_Website/express_website/views/contact.jade" />
+        <option value="$PROJECT_DIR$/NewWords_IEEE_WebWorkshop/Server/package.json" />
+        <option value="$PROJECT_DIR$/NewWords_IEEE_WebWorkshop/Server/server.js" />
+        <option value="$PROJECT_DIR$/Nodejs_Projects/proj2_Basic_Express_Website/express_website/app.js" />
+        <option value="$PROJECT_DIR$/Robogals_WebDev_Practice/Codementor_Website/index_files/contact_me.js" />
+        <option value="$PROJECT_DIR$/Robogals_WebDev_Practice/Codementor_Website/temp.html" />
+        <option value="$PROJECT_DIR$/Robogals_WebDev_Practice/tmp/Freelancer - Start Bootstrap Theme_files/contact_me.php" />
+        <option value="$PROJECT_DIR$/Robogals_WebDev_Practice/tmp/Freelancer - Start Bootstrap Theme_files/contact_me.js" />
+        <option value="chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/uiscripts/blacklisting/rightclick_hook.js" />
+        <option value="chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/notificationoverlay.js" />
+        <option value="$PROJECT_DIR$/startbootstrap-freelancer-gh-pages/mail/contact_me.php" />
+        <option value="$PROJECT_DIR$/startbootstrap-freelancer-gh-pages/js/contact_me.js" />
+        <option value="$PROJECT_DIR$/startbootstrap-freelancer-gh-pages/index.html" />
+        <option value="$PROJECT_DIR$/Robogals_WebDev_Practice/tmp/Freelancer - Start Bootstrap Theme.html" />
+        <option value="$PROJECT_DIR$/Robogals_WebDev_Practice/tmp/Freelancer - Start Bootstrap Theme_files/freelancer.css" />
+        <option value="$PROJECT_DIR$/Robogals_WebDev_Practice/Codementor_Website/index.html" />
+        <option value="$PROJECT_DIR$/Robogals_WebDev_Practice/Codementor_Website/index_files/freelancer.css" />
+        <option value="$PROJECT_DIR$/Robogals_WebDev_Practice/Codementor_v2/my_notes.txt" />
+        <option value="$PROJECT_DIR$/Robogals_WebDev_Practice/Codementor_v2/index_files/freelancer.css" />
+        <option value="$PROJECT_DIR$/Robogals_WebDev_Practice/Post_test/home.html" />
+        <option value="$PROJECT_DIR$/Robogals_WebDev_Practice/Codementor_v2/index.html" />
+        <option value="$PROJECT_DIR$/Robogals_WebDev_Practice/Codementor_formless/index_files/freelancer.css" />
+        <option value="$PROJECT_DIR$/Robogals_WebDev_Practice/Codementor_formless/index.html" />
+        <option value="$PROJECT_DIR$/Nodejs_Projects/proj3_UserLogin_System/nodeauth/package.json" />
+        <option value="$PROJECT_DIR$/Nodejs_Projects/proj3_UserLogin_System/nodeauth/app.js" />
+        <option value="$PROJECT_DIR$/Nodejs_Projects/proj3_UserLogin_System/notes.txt" />
+        <option value="$PROJECT_DIR$/Nodejs_Projects/proj3_UserLogin_System/nodeauth/routes/index.js" />
+        <option value="$PROJECT_DIR$/Nodejs_Projects/proj3_UserLogin_System/nodeauth/views/index.jade" />
+        <option value="$PROJECT_DIR$/Nodejs_Projects/proj3_UserLogin_System/nodeauth/views/layout.jade" />
+        <option value="$PROJECT_DIR$/Nodejs_Projects/proj3_UserLogin_System/nodeauth/views/login.jade" />
+        <option value="$PROJECT_DIR$/Nodejs_Projects/proj3_UserLogin_System/nodeauth/views/register.jade" />
+        <option value="$PROJECT_DIR$/Nodejs_Projects/proj3_UserLogin_System/nodeauth/routes/users.js" />
+        <option value="$PROJECT_DIR$/StarterApp/app.js" />
+        <option value="$PROJECT_DIR$/StarterApp/views/index.jade" />
+        <option value="$PROJECT_DIR$/StarterApp/bin/www" />
+        <option value="$PROJECT_DIR$/StarterApp/routes/users.js" />
+        <option value="$PROJECT_DIR$/ExpressRefresher/customerapp/package.json" />
+        <option value="$PROJECT_DIR$/ExpressRefresher/customerapp/app.ks.js" />
+        <option value="$PROJECT_DIR$/ExpressRefresher/customerapp/public/index.html" />
+        <option value="$PROJECT_DIR$/ExpressRefresher/customerapp/views/test.html" />
+        <option value="$PROJECT_DIR$/ExpressRefresher/customerapp/views/partials/footer.ejs" />
+        <option value="$PROJECT_DIR$/ExpressRefresher/backup_ers" />
+        <option value="$PROJECT_DIR$/ExpressRefresher/backup_cur" />
+        <option value="$PROJECT_DIR$/ExpressRefresher/customerapp/Notes.txt" />
+        <option value="$PROJECT_DIR$/ExpressRefresher/customerapp/views/partials/header.ejs" />
+        <option value="$PROJECT_DIR$/ExpressRefresher/customerapp/views/index.ejs" />
+        <option value="$PROJECT_DIR$/ExpressRefresher/customerapp/app.js" />
+        <option value="$PROJECT_DIR$/ExpressRefresher/customerapp/public/js/main.js" />
       </list>
     </option>
+  </component>
+  <component name="JsBowerSettings">
+    <exe-path />
+    <config-path />
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" />
   <component name="JsBuildToolPackageJson" detection-done="true" />
@@ -188,10 +149,10 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="260" />
-    <option name="y" value="58" />
-    <option name="width" value="1039" />
-    <option name="height" value="721" />
+    <option name="x" value="380" />
+    <option name="y" value="24" />
+    <option name="width" value="958" />
+    <option name="height" value="709" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -218,7 +179,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -236,10 +196,6 @@
               <option name="myItemId" value="LearnNodejs" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Nodejs_Projects" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -251,138 +207,58 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Nodejs_Projects" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="proj2_Basic_Express_Website" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LearnNodejs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LearnNodejs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Nodejs_Projects" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="proj2_Basic_Express_Website" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="express_website" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LearnNodejs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LearnNodejs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Nodejs_Projects" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="proj2_Basic_Express_Website" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="express_website" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LearnNodejs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LearnNodejs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Nodejs_Projects" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="proj2_Basic_Express_Website" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="express_website" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="routes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LearnNodejs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LearnNodejs" />
+              <option name="myItemId" value="startbootstrap-freelancer-gh-pages" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../External_Workshops/NewWords_IEEE_WebWorkshop" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
     <property name="javascript.nodejs.core.library.configured.version" value="4.4.0" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/David/Desktop/LearnNodejs/Robogals_WebDev_Practice/Codementor_Website/index.html" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Nodejs_Projects/proj2_Basic_Express_Website" />
-      <recent name="$PROJECT_DIR$/HTML Practice" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ExpressRefresher/customerapp" />
+      <recent name="$PROJECT_DIR$/Robogals_WebDev_Practice/tmp/Freelancer - Start Bootstrap Theme_files/mail" />
       <recent name="$PROJECT_DIR$/HTML_Practice" />
       <recent name="$PROJECT_DIR$/HTML Practice/Codecademy_MakeAWebsite" />
       <recent name="$PROJECT_DIR$/HTML Practice/Codecademy_MakeAWebsite/HTML_Site_Structure" />
-      <recent name="$PROJECT_DIR$/LearnNodejs" />
-      <recent name="$PROJECT_DIR$/HTML Practice/codecademy_makeawebsite" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/Nodejs_Projects/proj3_UserLogin_System/nodeauth/public" />
+      <recent name="$PROJECT_DIR$/Nodejs_Projects/proj3_UserLogin_System/nodeauth/public/javascripts" />
+      <recent name="$PROJECT_DIR$/Nodejs_Projects/proj3_UserLogin_System/nodeauth/public/stylesheets" />
+      <recent name="$PROJECT_DIR$/Robogals_WebDev_Practice" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.html">
-    <configuration default="false" name="helloworld.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="helloworld.js" working-dir="$PROJECT_DIR$/HTML_Practice">
+  <component name="RunManager" selected="Node.js.users.js">
+    <configuration default="false" name="index.html (1)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63344/LearnNodejs/Robogals_WebDev_Practice/Codementor_Website/index.html">
       <method />
     </configuration>
-    <configuration default="false" name="helloworld.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/LearnNodejs/Tests/helloworld.html">
+    <configuration default="false" name="Freelancer - Start Bootstrap Theme.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/LearnNodejs/Robogals_WebDev_Practice/tmp/Freelancer - Start Bootstrap Theme.html">
       <method />
     </configuration>
-    <configuration default="false" name="helloworld.html (1)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/LearnNodejs/HTML Practice/helloworld.html">
+    <configuration default="false" name="index.html (2)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/LearnNodejs/startbootstrap-freelancer-gh-pages/index.html">
       <method />
     </configuration>
-    <configuration default="false" name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/LearnNodejs/HTML Practice/Codecademy_MakeAWebsite/unit2_CSS_Closer_Look/index.html">
+    <configuration default="false" name="app.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="app.js" working-dir="$PROJECT_DIR$/Nodejs_Projects/proj3_UserLogin_System/nodeauth">
+      <method />
+    </configuration>
+    <configuration default="false" name="users.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="users.js" working-dir="$PROJECT_DIR$/Nodejs_Projects/proj3_UserLogin_System/nodeauth/routes">
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -438,18 +314,20 @@
       <recursive>false</recursive>
       <method />
     </configuration>
-    <list size="4">
-      <item index="0" class="java.lang.String" itemvalue="Node.js.helloworld.js" />
-      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.helloworld.html" />
-      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.helloworld.html (1)" />
-      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html (1)" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.Freelancer - Start Bootstrap Theme.html" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.index.html (2)" />
+      <item index="3" class="java.lang.String" itemvalue="Node.js.app.js" />
+      <item index="4" class="java.lang.String" itemvalue="Node.js.users.js" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.helloworld.html (1)" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.helloworld.html" />
-        <item index="3" class="java.lang.String" itemvalue="Node.js.helloworld.js" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Node.js.users.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.app.js" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.index.html (2)" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.Freelancer - Start Bootstrap Theme.html" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.index.html (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -472,33 +350,62 @@
       <workItem from="1458675664850" duration="1466000" />
       <workItem from="1458750407182" duration="192000" />
       <workItem from="1458812383544" duration="516000" />
-      <workItem from="1459168717408" duration="13250000" />
+      <workItem from="1459168717408" duration="15753000" />
+      <workItem from="1459298329901" duration="86000" />
+      <workItem from="1459298600707" duration="2344000" />
+      <workItem from="1459305270326" duration="332000" />
+      <workItem from="1459311378343" duration="999000" />
+      <workItem from="1461468925859" duration="575000" />
+      <workItem from="1463548426563" duration="11298000" />
+      <workItem from="1463572454566" duration="2620000" />
+      <workItem from="1463635757219" duration="27572000" />
+      <workItem from="1463954950867" duration="223000" />
+      <workItem from="1464255704555" duration="233000" />
+      <workItem from="1464437918925" duration="3206000" />
+      <workItem from="1466205355637" duration="3780000" />
+      <workItem from="1466321729655" duration="922000" />
+      <workItem from="1466349727058" duration="308000" />
+      <workItem from="1466444344205" duration="1579000" />
+      <workItem from="1466480227379" duration="900000" />
+      <workItem from="1466491533381" duration="8277000" />
+      <workItem from="1469695694153" duration="14004000" />
+      <workItem from="1469778202257" duration="221000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24965000" />
+    <option name="totallyTimeSpent" value="106947000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="260" y="58" width="1039" height="721" extended-state="0" />
+    <frame x="380" y="24" width="958" height="709" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34675834" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17075774" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37163374" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977098" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2494043" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290938" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32901135" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -512,405 +419,169 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="wip project 4 user log in system" />
+    <option name="LAST_COMMIT_MESSAGE" value="wip project 4 user log in system" />
+  </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/Robogals_WebDev_Practice/tmp/Freelancer - Start Bootstrap Theme_files/contact_me.js</url>
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="5" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/HTML_Practice/Codecademy_MakeAWebsite/info.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="47" selection-start-line="0" selection-start-column="47" selection-end-line="0" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HTML_Practice/Codecademy_MakeAWebsite/unit2_CSS_Closer_Look/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HTML_Practice/Codecademy_MakeAWebsite/unit2_CSS_Closer_Look/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HTML_Practice/helloworld.html">
+    <entry file="file://$PROJECT_DIR$/Nodejs_Projects/proj3_UserLogin_System/nodeauth/public/javascripts/bootstrap.js" />
+    <entry file="file://$PROJECT_DIR$/Nodejs_Projects/proj3_UserLogin_System/nodeauth/node_modules/express/lib/application.js" />
+    <entry file="file://$PROJECT_DIR$/Nodejs_Projects/proj2_Basic_Express_Website/express_website/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HTML_Practice/sao.jpeg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HTML_Practice/Codecademy_MakeAWebsite/unit1_HTML_Site_Structure/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="12" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HTML_Practice/Codecademy_MakeAWebsite/unit1_HTML_Site_Structure/cities.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="40" column="7" selection-start-line="40" selection-start-column="7" selection-end-line="40" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HTML_Practice/Codecademy_MakeAWebsite/unit1_HTML_Site_Structure/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HTML_Practice/utube.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Nodejs_Projects/proj1_Simple_Web_Server/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Nodejs_Projects/proj1_Simple_Web_Server/notes.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="48" column="35" selection-start-line="48" selection-start-column="35" selection-end-line="48" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HTML_Practice/helloworld.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="48" selection-start-line="4" selection-start-column="48" selection-end-line="4" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Nodejs_Projects/proj1_Simple_Web_Server/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="18" selection-start-line="0" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Nodejs_Projects/proj1_Simple_Web_Server/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="41" column="15" selection-start-line="41" selection-start-column="15" selection-end-line="41" selection-end-column="15" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Nodejs_Projects/proj1_Simple_Web_Server/notes.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="48" column="35" selection-start-line="48" selection-start-column="35" selection-end-line="48" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HTML_Practice/helloworld.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Nodejs_Projects/proj1_Simple_Web_Server/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="18" selection-start-line="0" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Tests/helloworld.js" />
-    <entry file="file://$PROJECT_DIR$/HTML_Practice/Codecademy_MakeAWebsite/unit1_HTML_Site_Structure/cities.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="40" column="7" selection-start-line="40" selection-start-column="7" selection-end-line="40" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HTML_Practice/Codecademy_MakeAWebsite/info.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="47" selection-start-line="0" selection-start-column="47" selection-end-line="0" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HTML_Practice/Codecademy_MakeAWebsite/unit2_CSS_Closer_Look/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HTML_Practice/Codecademy_MakeAWebsite/unit2_CSS_Closer_Look/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Nodejs_Projects/proj1_Simple_Web_Server/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Nodejs_Projects/proj1_Simple_Web_Server/npm-debug.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" column="30" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Nodejs_Projects/proj1_Simple_Web_Server/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="18" selection-start-line="0" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HTML_Practice/sao.jpeg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Nodejs_Projects/proj1_Simple_Web_Server/notes.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="470">
-          <caret line="44" column="0" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Nodejs_Projects/proj1_Simple_Web_Server/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="50" column="21" selection-start-line="50" selection-start-column="21" selection-end-line="50" selection-end-column="21" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HTML_Practice/utube.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1065">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HTML_Practice/test.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-210">
-          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HTML_Practice/helloworld.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="11" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Nodejs_Projects/proj2_Basic_Express_Website/express_website/public/stylesheets/bootstrap.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7275">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Nodejs_Projects/proj2_Basic_Express_Website/express_website/public/images/bg.jpeg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Nodejs_Projects/proj2_Basic_Express_Website/notes.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="106" column="97" selection-start-line="106" selection-start-column="97" selection-end-line="106" selection-end-column="97" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Nodejs_Projects/proj2_Basic_Express_Website/express_website/bin/www">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-580">
-          <caret line="17" column="3" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Nodejs_Projects/proj2_Basic_Express_Website/t.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="37" column="44" selection-start-line="37" selection-start-column="44" selection-end-line="37" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Nodejs_Projects/proj2_Basic_Express_Website/express_website/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="22" selection-start-line="0" selection-start-column="0" selection-end-line="17" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Nodejs_Projects/proj2_Basic_Express_Website/npm-debug.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
-          <folding />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Nodejs_Projects/proj2_Basic_Express_Website/express_website/views/index.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Nodejs_Projects/proj2_Basic_Express_Website/express_website/views/layout.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Nodejs_Projects/proj2_Basic_Express_Website/express_website/views/error.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HTML_Practice/Codecademy_MakeAWebsite/unit1_HTML_Site_Structure/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="571">
-          <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HTML_Practice/Codecademy_MakeAWebsite/unit1_HTML_Site_Structure/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Nodejs_Projects/proj2_Basic_Express_Website/express_website/public/stylesheets/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Nodejs_Projects/proj2_Basic_Express_Website/express_website/views/about.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Nodejs_Projects/proj2_Basic_Express_Website/express_website/routes/users.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Nodejs_Projects/proj2_Basic_Express_Website/express_website/routes/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Robogals_WebDev_Practice/Codementor_formless/fonts/glyphicons-halflings-regular.svg" />
+    <entry file="file://$PROJECT_DIR$/Robogals_WebDev_Practice/Codementor_v2/js/bootstrap.js" />
     <entry file="file://$PROJECT_DIR$/Nodejs_Projects/proj2_Basic_Express_Website/express_website/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="53" column="27" selection-start-line="53" selection-start-column="27" selection-end-line="53" selection-end-column="27" />
+        <state relative-caret-position="306">
+          <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Nodejs_Projects/proj2_Basic_Express_Website/notes.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="108" column="52" selection-start-line="108" selection-start-column="52" selection-end-line="108" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Nodejs_Projects/proj3_UserLogin_System/nodeauth/package.json" />
+    <entry file="file://$PROJECT_DIR$/Nodejs_Projects/proj3_UserLogin_System/nodeauth/public/stylesheets/bootstrap.css" />
+    <entry file="file://$PROJECT_DIR$/Nodejs_Projects/proj3_UserLogin_System/nodeauth/views/error.jade" />
+    <entry file="file://$PROJECT_DIR$/Nodejs_Projects/proj3_UserLogin_System/nodeauth/public/stylesheets/style.css" />
+    <entry file="file://$PROJECT_DIR$/Nodejs_Projects/proj3_UserLogin_System/nodeauth/routes/users.js" />
+    <entry file="file://$PROJECT_DIR$/Nodejs_Projects/proj3_UserLogin_System/nodeauth/node_modules/multer/lib/file-appender.js" />
+    <entry file="file://$PROJECT_DIR$/Nodejs_Projects/proj3_UserLogin_System/nodeauth/routes/index.js" />
+    <entry file="file://$PROJECT_DIR$/StarterApp/views/error.jade" />
+    <entry file="file://$PROJECT_DIR$/StarterApp/node_modules/.bin/jade" />
+    <entry file="file://$PROJECT_DIR$/StarterApp/node_modules/express/index.js" />
+    <entry file="file://$PROJECT_DIR$/StarterApp/package.json" />
+    <entry file="file://$PROJECT_DIR$/StarterApp/views/index.jade" />
+    <entry file="file://$PROJECT_DIR$/StarterApp/bin/www" />
+    <entry file="file://$PROJECT_DIR$/StarterApp/app.js" />
+    <entry file="file://$PROJECT_DIR$/StarterApp/routes/index.js" />
+    <entry file="file://$PROJECT_DIR$/StarterApp/routes/users.js" />
+    <entry file="file://$PROJECT_DIR$/Nodejs_Projects/proj3_UserLogin_System/nodeauth/views/register.jade" />
+    <entry file="file://$PROJECT_DIR$/Nodejs_Projects/proj3_UserLogin_System/nodeauth/views/index.jade" />
+    <entry file="file://$PROJECT_DIR$/Nodejs_Projects/proj3_UserLogin_System/nodeauth/views/login.jade" />
+    <entry file="file://$PROJECT_DIR$/ExpressStarterApp/Notes.txt" />
+    <entry file="file://$PROJECT_DIR$/Nodejs_Projects/proj3_UserLogin_System/nodeauth/views/layout.jade" />
+    <entry file="file://$PROJECT_DIR$/ExpressRefresher/customerapp/app.ks.js" />
+    <entry file="file://$PROJECT_DIR$/ExpressRefresher/Notes.txt" />
+    <entry file="file://$PROJECT_DIR$/ExpressRefresher/customerapp/node_modules/express/index.js" />
+    <entry file="file://$PROJECT_DIR$/ExpressRefresher/customerapp/npm-debug.log" />
+    <entry file="file://$PROJECT_DIR$/ExpressRefresher/customerapp/package.json" />
+    <entry file="file://$PROJECT_DIR$/HTML_Practice/Codecademy_MakeAWebsite/unit1_HTML_Site_Structure/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="22" selection-start-line="0" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ExpressRefresher/customerapp/public/index.html" />
+    <entry file="file://$PROJECT_DIR$/ExpressRefresher/customerapp/views/test.html" />
+    <entry file="file://$PROJECT_DIR$/Nodejs_Projects/proj3_UserLogin_System/notes.txt" />
+    <entry file="file://$PROJECT_DIR$/Nodejs_Projects/proj3_UserLogin_System/nodeauth/app.js" />
+    <entry file="file://$PROJECT_DIR$/backup" />
+    <entry file="file://$PROJECT_DIR$/ExpressRefresher/backup_ers" />
+    <entry file="file://$PROJECT_DIR$/ExpressRefresher/backup_cur" />
+    <entry file="file://$PROJECT_DIR$/ExpressRefresher/customerapp/Notes.txt" />
+    <entry file="file://$PROJECT_DIR$/ExpressRefresher/customerapp/views/partials/footer.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="4" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ExpressRefresher/customerapp/views/partials/header.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ExpressRefresher/customerapp/views/index.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="35" column="57" selection-start-line="35" selection-start-column="57" selection-end-line="35" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ExpressRefresher/customerapp/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="179" column="0" selection-start-line="179" selection-start-column="0" selection-end-line="179" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Nodejs_Projects/proj2_Basic_Express_Website/express_website/routes/about.js">
+    <entry file="file://$PROJECT_DIR$/ExpressRefresher/customerapp/public/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="14" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#42#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Nodejs_Projects/proj2_Basic_Express_Website/express_website/views/contact.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="48" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
+        <state relative-caret-position="75">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Nodejs_Projects/proj2_Basic_Express_Website/express_website/routes/contact.js">
+    <entry file="file://$PROJECT_DIR$/startbootstrap-freelancer-gh-pages/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="23" column="47" selection-start-line="23" selection-start-column="47" selection-end-line="23" selection-end-column="47" />
-          <folding>
-            <element signature="e#0#42#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="12" />
+          <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="12" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

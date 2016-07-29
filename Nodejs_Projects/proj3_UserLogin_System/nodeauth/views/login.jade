@@ -1,0 +1,24 @@
+//
+   Created by David on 22/06/2016.
+
+extends layout
+
+block content
+    h1 Register
+    p Please register using the form below, title = #{title}
+    form(method='post', action='/users/register', enctype = 'multipart/form-data')
+
+        // need enctype to deal with files in a html form
+            // post data to somewhere (action) - sends to users/register ?=
+        // file upload via multer// bootstrap form using jade
+        // a field
+        .form-group
+            label Username
+            input.form-control(name='username', type='text', placeholder='Enter username')
+        .form-group
+            label Password
+            input.form-control(name='password', type='password', placeholder='Enter password')
+
+        input.btn.btn-default(name='submit', type='submit', value='Login')
+
+
